@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>2048</title>
+	<style>
+		td.tile {
+			border: 1px solid black;
+			width: 70px;
+			height: 70px;
+		}
+
+		i {
+			border: solid black;
+			border-width: 0 3px 3px 0;
+			display: inline-block;
+			padding: 3px;
+		}
+
+		.right {
+			transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+		}
+
+		.left {
+			transform: rotate(135deg);
+			-webkit-transform: rotate(135deg);
+		}
+
+		.up {
+			transform: rotate(-135deg);
+			-webkit-transform: rotate(-135deg);
+		}
+
+		.down {
+			transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+		}
+	</style>
+</head>
+
+<body onload="init()">
+	<h1 style="text-align: center">2048</h1>
+	<table style="margin-left: auto; margin-right: auto; text-align: center">
+		<tr>
+			<td></td>
+			<td>
+				<button type="button" onclick="upClicked()">
+					<i class="up"></i>
+				</button>
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<button type="button" onclick="leftClicked()">
+					<i class="left"></i>
+				</button>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td class="tile"></td>
+						<td class="tile"></td>
+						<td class="tile"></td>
+						<td class="tile"></td>
+					</tr>
+					<tr>
+						<td class="tile"></td>
+						<td class="tile"></td>
+						<td class="tile"></td>
+						<td class="tile"></td>
+					</tr>
+					<tr>
+						<td class="tile"></td>
+						<td class="tile"></td>
+						<td class="tile"></td>
+						<td class="tile"></td>
+					</tr>
+					<tr>
+						<td class="tile"></td>
+						<td class="tile"></td>
+						<td class="tile"></td>
+						<td class="tile"></td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<button type="button" onclick="rightClicked()">
+					<i class="right"></i>
+				</button>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<button type="button" onclick="downClicked()">
+					<i class="down"></i>
+				</button>
+			</td>
+			<td></td>
+		</tr>
+	</table>
+	<script>
+		var currentTileValues = [];
+		var previousTileValues = [];
+		var rows = 4;
+		var columns = 4;
+
+		function init() {
+			let initialInsertionMatrix = [];
+			for (let rowIndex = 0; rowIndex < rows; rowIndex++) {
+				rowValues = [];
+				rowValuesInitialInsertionMatrix = [];
+				for (let columnIndex = 0; columnIndex < columns; columnIndex++) {
+					rowValues.push(0);
+					rowValuesInitialInsertionMatrix.push(2);
+				}
+				currentTileValues.push(rowValues);
+				initialInsertionMatrix.push(rowValuesInitialInsertionMatrix);
+			}
+			insertTile(initialInsertionMatrix);
+			insertTile(initialInsertionMatrix);
+			updateDisplay();
+		}
+
+		var updateDisplay=function updateDisplayedTiles() {
+			let tileElements = Array.from(document.getElementsByClassName("tile"));
+			tileElements.forEach(function (tileElement, index) {
+				let rowIndex = Math.floor(index / columns);
+				let columnIndex = index % columns;
+				let value = currentTileValues[rowIndex][columnIndex];
+				if (value != 0) {
+					tileElement.innerHTML = value;
+				} else {
+					tileElement.innerHTML = "";
+				}
+			});
+		}
+
+		function getRandomInteger(min, max) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		function shuffle(arrayValues) {
+			values = [];
+			while (arrayValues.length > 0) {
+				removeIndex = getRandomInteger(1, arrayValues.length) - 1;
+				values.push(arrayValues.splice(removeIndex, 1)[0]);
+			}
+			return values;
+		}
+
+		function generateInsertionMatrix() {
+			/*
+			Below two parameters are used to generate one value which is doubled than the least value at random times 
+			so as to increase the complexity of game
+			*/
+			doubledTileMinIndex = 30;
+			doubledTileMaxIndex = 50;
+			minInsertionValue = 2;
+			doubledTileIndex = getRandomInteger(doubledTileMinIndex, doubledTileMaxIndex);
+			let values = [];
+			for (let index = 0; index < doubledTileIndex; index++) {
+				values.push(minInsertionValue);
+			}
+			values.push(minInsertionValue * 2);
+			values = shuffle(values);
+			let insertionValues = values.slice(0, 16);
+			values = [];
+			for (let rowIndex = 0; rowIndex < rows; rowIndex++) {
+				rowValues = [];
+				for (let columnIndex = 0; columnIndex < columns; columnIndex++) {
+					rowValues.push(insertionValues[(rowIndex * columns) + columnIndex]);
+				}
+				values.push(rowValues);
+			}
+			return values;
+		}
+
+		function insertTile(insertionMatrix) {
+			let blankIndices = [];
+			for (let rowIndex = 0; rowIndex < rows; rowIndex++) {
+				for (let columnIndex = 0; columnIndex < columns; columnIndex++) {
+					if (currentTileValues[rowIndex][columnIndex] == 0) {
+						blankIndex = [rowIndex, columnIndex];
+						blankIndices.push(blankIndex);
+					}
+				}
+			}
+			insertionIndex = blankIndices[getRandomInteger(1, blankIndices.length) - 1];
+			currentTileValues[insertionIndex[0]][insertionIndex[1]] = insertionMatrix[insertionIndex[0]][insertionIndex[1]];
+		}
+
+		function buttonClicked(callback) {		
+			if (valuesUnchanged(previousTileValues, currentTileValues)) {
+				currentTileValues = previousTileValues;
+			}
+			else {
+				insertTile(generateInsertionMatrix());
+			}
+			callback();
+		}
+
+		function pullValues(inputArray) {
+			pulledArray = [];
+			inputArray.forEach(function (value) {
+				if (value != 0) {
+					pulledArray.push(value);
+				}
+			});
+			for (let index = pulledArray.length; index < inputArray.length; index++) {
+				pulledArray.push(0);
+			}
+			return pulledArray;
+		}
+
+		function mergeValues(inputArray) {
+			inputArray = pullValues(inputArray);
+			for (let index = 0; index < inputArray.length - 1; index++) {
+				if (inputArray[index] == inputArray[index + 1]) {
+					inputArray[index] = inputArray[index] * 2;
+					inputArray[index + 1] = 0;
+					index = index + 1;
+				}
+			}
+			inputArray = pullValues(inputArray);
+			return inputArray;
+		}
+
+		function copyCurrentTileValues() {
+			values = [];
+			for (let rowIndex = 0; rowIndex < rows; rowIndex++) {
+				rowValues = [];
+				for (let columnIndex = 0; columnIndex < columns; columnIndex++) {
+					rowValues.push(currentTileValues[rowIndex][columnIndex]);
+				}
+				values.push(rowValues);
+			}
+			return values;
+		}
+
+		function valuesUnchanged(previousValues, currentValues) {
+			previousValues=previousValues.flat();
+			currentValues=currentValues.flat();
+			let match=true;
+			for (let index = 0; index < previousValues.length; index++) {	
+				if(match) {
+					if (previousValues[index] != currentValues[index]) {
+						match=false;
+					}
+				}				
+			}
+			return match;
+		}
+
+		function upClicked() {
+			previousTileValues = copyCurrentTileValues();
+			for (let columnIndex = 0; columnIndex < columns; columnIndex++) {
+				columnValues = [];
+				for (let rowIndex = 0; rowIndex < rows; rowIndex++) {
+					columnValues.push(currentTileValues[rowIndex][columnIndex]);
+				}
+				columnValues = mergeValues(columnValues);
+				let index = 0;
+				for (let rowIndex = 0; rowIndex < rows; rowIndex++) {
+					currentTileValues[rowIndex][columnIndex] = columnValues[index];
+					index = index + 1;
+				}
+			}
+			buttonClicked(updateDisplay);
+		}
+
+		function downClicked() {
+			previousTileValues = copyCurrentTileValues();
+			for (let columnIndex = 0; columnIndex < columns; columnIndex++) {
+				columnValues = [];
+				for (let rowIndex = rows - 1; rowIndex >= 0; rowIndex--) {
+					columnValues.push(currentTileValues[rowIndex][columnIndex]);
+				}
+				columnValues = mergeValues(columnValues);
+				let index = 0;
+				for (let rowIndex = rows - 1; rowIndex >= 0; rowIndex--) {
+					currentTileValues[rowIndex][columnIndex] = columnValues[index];
+					index = index + 1;
+				}
+			}
+			buttonClicked(updateDisplay);
+		}
+
+		function leftClicked() {
+			previousTileValues = copyCurrentTileValues();
+			for (let rowIndex = 0; rowIndex < rows; rowIndex++) {
+				rowValues = [];
+				for (let columnIndex = 0; columnIndex < columns; columnIndex++) {
+					rowValues.push(currentTileValues[rowIndex][columnIndex]);
+				}
+				rowValues = mergeValues(rowValues);
+				let index = 0;
+				for (let columnIndex = 0; columnIndex < columns; columnIndex++) {
+					currentTileValues[rowIndex][columnIndex] = rowValues[index];
+					index = index + 1;
+				}
+			}
+			buttonClicked(updateDisplay);
+		}
+
+		function rightClicked() {
+			previousTileValues = copyCurrentTileValues();
+			for (let rowIndex = 0; rowIndex < rows; rowIndex++) {
+				rowValues = [];
+				for (let columnIndex = columns - 1; columnIndex >= 0; columnIndex--) {
+					rowValues.push(currentTileValues[rowIndex][columnIndex]);
+				}
+				rowValues = mergeValues(rowValues);
+				let index = 0;
+				for (let columnIndex = columns - 1; columnIndex >= 0; columnIndex--) {
+					currentTileValues[rowIndex][columnIndex] = rowValues[index];
+					index = index + 1;
+				}
+			}
+			buttonClicked(updateDisplay);
+		}
+	</script>
+</body>
+
+</html>
