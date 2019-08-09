@@ -47,22 +47,38 @@ def perform_action(action_code):
             click_down()
         elif action_code.lower()=='left':
             click_left()
+    time.sleep(5)
+
+def get_current_state():
+    global driver
+    tiles=driver.find_elements_by_class_name("tile")
+    result=[]
+    for tile in tiles:
+        tile_text=tile.text
+        if tile_text=='':
+            result.append('0')
+        else:
+            result.append(tile_text)
+    print(str(result))
+    return result
 
 time.sleep(5)
+get_current_state()
 perform_action(0)
-time.sleep(5)
+get_current_state()
 perform_action(1)
-time.sleep(5)
+get_current_state()
 perform_action(2)
-time.sleep(5)
+get_current_state()
 perform_action(3)
-time.sleep(5)
+get_current_state()
 perform_action('Up')
-time.sleep(5)
+get_current_state()
 perform_action('right')
-time.sleep(5)
+get_current_state()
 perform_action('Down')
-time.sleep(5)
+get_current_state()
 perform_action('left')
-time.sleep(5)
+get_current_state()
+
 driver.quit()
