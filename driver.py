@@ -92,26 +92,38 @@ def perform_random_action():
         print(action)
     return current_state, action
 
-def perform_all_shuffled_random_actions_until_changed():
-    global debug_mode
-    current_state=get_current_state()
-    action_list=[0,1,2,3]
-    actions=random.sample(action_list, len(action_list))
-    for action in actions:
-        perform_action(action)
-        next_state=get_current_state()
-        if debug_mode:
-            print(current_state)
-            print(action)
-            print(next_state)
-        if np.array_equal(current_state,next_state)==False:
-            break    
-
-# while True:
-#     current_state, action = perform_random_action()
-#     if (0 in get_current_state().flatten())==False:
-#         if perform_all_shuffled_random_actions_until_changed()=='stop':
-#             print()
-#             break
+def play_game_randomly():
+    global driver
+    states, actions=[], []
+    final_attempt_done=0
+    while final_attempt_done<4:
+        current_state, action = perform_random_action()
+        states.append(current_state)
+        actions.append(action)
+        current_state=get_current_state()
+        if (0 in current_state.flatten())==False:
+            action_list=[0,1,2,3]
+            action_list=random.sample(action_list, len(action_list))
+            for action in actions:                
+                perform_action(action)
+                next_state=get_current_state()
+                if np.array_equal(current_state,next_state):
+                    states.append(current_state)                    
+                    final_attempt_done=final_attempt_done+1
+                    print('final_attempt=' + str(final_attempt_done))
+                    if final_attempt_done==4:
+                        action=-1
+                    actions.append(action)
+                else:
+                    states.append(current_state) 
+                    actions.append(action)
+                    attempt=0
+                    break
+    driver.quit() 
+    return states, actions      
   
-driver.quit()
+states, actions=play_game_randomly()
+
+for state, action in zip(states, actions):
+    print(state)
+    print_action_code_string(action)
