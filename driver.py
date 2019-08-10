@@ -19,7 +19,7 @@ for action_code in range(len(action_code_dictionary)):
 
 def print_action_code_string(action_code):
     global action_code_dictionary
-    if action_code in range(len(action_code_dictionary)):
+    if action_code in range(4):
         print('Clicking ' + action_code_dictionary[action_code])    
     elif action_code==-1:
         print('Game Over')
