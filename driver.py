@@ -1,8 +1,14 @@
 import time
+import numpy as np
+import os
 from selenium import webdriver
 
 driver = webdriver.Chrome('./chromedriver')
-driver.get('https://bhaubhau.github.io')
+#driver.get('https://bhaubhau.github.io')
+file_path='file:///' + os.getcwd() + '/index.html'
+print(file_path)
+driver.get(file_path)
+time.sleep(10)
 
 def click_up():
     global driver
@@ -47,7 +53,7 @@ def perform_action(action_code):
             click_down()
         elif action_code.lower()=='left':
             click_left()
-    time.sleep(5)
+    time.sleep(200/1000)
 
 def get_current_state():
     global driver
@@ -56,13 +62,14 @@ def get_current_state():
     for tile in tiles:
         tile_text=tile.text
         if tile_text=='':
-            result.append('0')
+            result.append(0)
         else:
-            result.append(tile_text)
-    print(str(result))
+            result.append(int(tile_text))
+    result=np.array(result)
+    result=result.reshape((4, 4))
+    print(result)
     return result
 
-time.sleep(5)
 get_current_state()
 perform_action(0)
 get_current_state()
