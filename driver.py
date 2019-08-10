@@ -4,63 +4,67 @@ import os
 import random
 from selenium import webdriver
 
-debug_mode=True
+debug_mode=False
 
 driver = webdriver.Chrome('./chromedriver')
-#driver.get('https://bhaubhau.github.io')
 file_path='file:///' + os.getcwd() + '/index.html'
 if debug_mode:
     print(file_path)
 driver.get(file_path)
 time.sleep(10)
 
+action_code_dictionary={0:'up',1:'right',2:'down',3:'left'}
+for action_code in range(len(action_code_dictionary)):
+    action_code_dictionary[action_code_dictionary[action_code]]=action_code
+
+def print_action_code_string(action_code):
+    global action_code_dictionary
+    if action_code in range(len(action_code_dictionary)):
+        print('Clicking ' + action_code_dictionary[action_code])    
+    elif action_code==-1:
+        print('Game Over')
+
 def click_up():
-    global driver, debug_mode
+    global driver, debug_mode, action_code_dictionary
     if debug_mode:
-        print("Clicking up")
+        print_action_code_string(action_code_dictionary['up'])
     up_button=driver.find_element_by_xpath("//i[@class='up']/parent::button")
     up_button.click()
 
 def click_down():
-    global driver, debug_mode
+    global driver, debug_mode, action_code_dictionary
     if debug_mode:
-        print("Clicking down")
+        print_action_code_string(action_code_dictionary['down'])
     down_button=driver.find_element_by_xpath("//i[@class='down']/parent::button")
     down_button.click()
 
 def click_left():
-    global driver, debug_mode
+    global driver, debug_mode, action_code_dictionary
     if debug_mode:
-        print("Clicking left")
+        print_action_code_string(action_code_dictionary['left'])
     left_button=driver.find_element_by_xpath("//i[@class='left']/parent::button")
     left_button.click()
 
 def click_right():
-    global driver, debug_mode
+    global driver, debug_mode, action_code_dictionary
     if debug_mode:
-        print("Clicking right")
+        print_action_code_string(action_code_dictionary['right'])
     right_button=driver.find_element_by_xpath("//i[@class='right']/parent::button")
     right_button.click()
 
 def perform_action(action_code):
+    global action_code_dictionary
     if(isinstance(action_code,int)):
-        if action_code==0:
+        if action_code==action_code_dictionary['up']:
             click_up()        
-        elif action_code==1:
+        elif action_code==action_code_dictionary['right']:
             click_right()
-        elif action_code==2:
+        elif action_code==action_code_dictionary['down']:
             click_down()
-        elif action_code==3:
+        elif action_code==action_code_dictionary['left']:
             click_left()
     elif(isinstance(action_code,str)):
-        if action_code.lower()=='up':
-            click_up()        
-        elif action_code.lower()=='right':
-            click_right()
-        elif action_code.lower()=='down':
-            click_down()
-        elif action_code.lower()=='left':
-            click_left()
+        perform_action(action_code_dictionary[action_code.lower()])
     time.sleep(200/1000)
 
 def get_current_state():
@@ -83,17 +87,31 @@ def perform_random_action():
     action_list=[0,1,2,3]
     action=random.choice(action_list)
     perform_action(action)
-    next_state=get_current_state()
     if debug_mode:
         print(current_state)
         print(action)
-        print(next_state)
-    return current_state, action, next_state
+    return current_state, action
 
-while True:
-    current_state, action, next_state = perform_random_action()
-    if (0 in next_state.flatten())==False:
-        print('Game Over')
-        break
-    
+def perform_all_shuffled_random_actions_until_changed():
+    global debug_mode
+    current_state=get_current_state()
+    action_list=[0,1,2,3]
+    actions=random.sample(action_list, len(action_list))
+    for action in actions:
+        perform_action(action)
+        next_state=get_current_state()
+        if debug_mode:
+            print(current_state)
+            print(action)
+            print(next_state)
+        if np.array_equal(current_state,next_state)==False:
+            break    
+
+# while True:
+#     current_state, action = perform_random_action()
+#     if (0 in get_current_state().flatten())==False:
+#         if perform_all_shuffled_random_actions_until_changed()=='stop':
+#             print()
+#             break
+  
 driver.quit()
