@@ -1,36 +1,44 @@
 import time
 import numpy as np
 import os
+import random
 from selenium import webdriver
+
+debug_mode=True
 
 driver = webdriver.Chrome('./chromedriver')
 #driver.get('https://bhaubhau.github.io')
 file_path='file:///' + os.getcwd() + '/index.html'
-print(file_path)
+if debug_mode:
+    print(file_path)
 driver.get(file_path)
 time.sleep(10)
 
 def click_up():
-    global driver
-    print("Clicking up")
+    global driver, debug_mode
+    if debug_mode:
+        print("Clicking up")
     up_button=driver.find_element_by_xpath("//i[@class='up']/parent::button")
     up_button.click()
 
 def click_down():
-    global driver
-    print("Clicking down")
+    global driver, debug_mode
+    if debug_mode:
+        print("Clicking down")
     down_button=driver.find_element_by_xpath("//i[@class='down']/parent::button")
     down_button.click()
 
 def click_left():
-    global driver
-    print("Clicking left")
+    global driver, debug_mode
+    if debug_mode:
+        print("Clicking left")
     left_button=driver.find_element_by_xpath("//i[@class='left']/parent::button")
     left_button.click()
 
 def click_right():
-    global driver
-    print("Clicking right")
+    global driver, debug_mode
+    if debug_mode:
+        print("Clicking right")
     right_button=driver.find_element_by_xpath("//i[@class='right']/parent::button")
     right_button.click()
 
@@ -67,25 +75,25 @@ def get_current_state():
             result.append(int(tile_text))
     result=np.array(result)
     result=result.reshape((4, 4))
-    print(result)
     return result
 
-get_current_state()
-perform_action(0)
-get_current_state()
-perform_action(1)
-get_current_state()
-perform_action(2)
-get_current_state()
-perform_action(3)
-get_current_state()
-perform_action('Up')
-get_current_state()
-perform_action('right')
-get_current_state()
-perform_action('Down')
-get_current_state()
-perform_action('left')
-get_current_state()
+def perform_random_action():
+    global debug_mode
+    current_state=get_current_state()
+    action_list=[0,1,2,3]
+    action=random.choice(action_list)
+    perform_action(action)
+    next_state=get_current_state()
+    if debug_mode:
+        print(current_state)
+        print(action)
+        print(next_state)
+    return current_state, action, next_state
 
+while True:
+    current_state, action, next_state = perform_random_action()
+    if (0 in next_state.flatten())==False:
+        print('Game Over')
+        break
+    
 driver.quit()
