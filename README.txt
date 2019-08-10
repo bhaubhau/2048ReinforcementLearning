@@ -1,4 +1,6 @@
-#use commands below only which are required
+#Host OS: Ubuntu18.04.2 inside VM
+
+#use commands below only which are required to setup the necessary libraries on OS
 sudo apt-get update
 sudo apt-get -f dist-upgrade
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
