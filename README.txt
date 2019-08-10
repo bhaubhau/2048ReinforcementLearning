@@ -10,8 +10,11 @@ chmod 600 .ssh/id_rsa
 chmod 700 .ssh
 sudo apt install python-pip
 sudo apt install python3-pip
-pip install selenium
+sudo pip3 install selenium
 sudo pip3 install numpy
 
 #download, unzip and place relevant chromedriver compatible with chrome version from below link and do chmod+x on it
 https://chromedriver.chromium.org/
+
+#To run the code cd to project directory and run the command
+$ python3 driver.py
