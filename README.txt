@@ -12,6 +12,9 @@ sudo apt install python-pip
 sudo apt install python3-pip
 sudo pip3 install selenium
 sudo pip3 install numpy
+sudo -H pip3 install --timeout 10000 pandas matplotlib
+sudo -H pip3 install --timeout 10000 scipy sklearn
+sudo -H pip3 install --timeout 10000 torch==1.2.0+cpu torchvision==0.4.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 
 #download, unzip and place relevant chromedriver compatible with chrome version from below link and do chmod+x on it
 https://chromedriver.chromium.org/
