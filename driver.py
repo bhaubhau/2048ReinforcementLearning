@@ -81,49 +81,80 @@ def get_current_state():
     result=result.reshape((4, 4))
     return result
 
-def perform_random_action():
-    global debug_mode
-    current_state=get_current_state()
-    action_list=[0,1,2,3]
-    action=random.choice(action_list)
-    perform_action(action)
-    if debug_mode:
-        print(current_state)
-        print(action)
-    return current_state, action
-
 def play_game_randomly():
-    global driver
+    global driver, debug_mode
     states, actions=[], []
     final_attempt_done=0
+    action_number=0
     while final_attempt_done<4:
-        current_state, action = perform_random_action()
-        states.append(current_state)
-        actions.append(action)
         current_state=get_current_state()
-        if (0 in current_state.flatten())==False:
-            action_list=[0,1,2,3]
-            action_list=random.sample(action_list, len(action_list))
-            for action in actions:                
-                perform_action(action)
+        action_list=[0,1,2,3]
+        action_list=random.sample(action_list, len(action_list))
+        if debug_mode:
+            print('Next action_list: ' + str(action_list))
+        action=action_list[0]
+        perform_action(action)    
+        next_state=get_current_state()  
+        states.append(current_state)
+        actions.append(action)   
+        if debug_mode:
+            print('action_number: ' + str(action_number))
+            print('final_attempt_done: ' + str(final_attempt_done))
+            print('current_state:')
+            print(current_state)
+            print('action:')
+            print(action)
+            print('next_state:')
+            print(next_state)
+        action_number=action_number+1  
+        final_attempt_done=final_attempt_done+1
+        for action in action_list[1:]:             
+            if np.array_equal(current_state,next_state):
+                perform_action(action) 
                 next_state=get_current_state()
-                if np.array_equal(current_state,next_state):
-                    states.append(current_state)                    
-                    final_attempt_done=final_attempt_done+1
-                    print('final_attempt=' + str(final_attempt_done))
-                    if final_attempt_done==4:
-                        action=-1
-                    actions.append(action)
-                else:
-                    states.append(current_state) 
-                    actions.append(action)
-                    attempt=0
-                    break
+                states.append(current_state)
+                final_attempt_done=final_attempt_done+1                
+                actions.append(action)
+                if debug_mode:
+                    print('action_number: ' + str(action_number))
+                    print('final_attempt_done: ' + str(final_attempt_done))
+                    print('current_state:')
+                    print(current_state)
+                    print('action:')
+                    print(action)
+                    print('next_state:')
+                    print(next_state)
+                action_number=action_number+1  
+            else:
+                final_attempt_done=0                  
+                break      
+    states.append(current_state)
+    action=-1
+    actions.append(action)
+    if debug_mode:
+        print('action_number: ' + str(action_number))
+        print('final_attempt_done: ' + str(final_attempt_done))
+        print('current_state:')
+        print(current_state)
+        print('action:')
+        print(action)
     driver.quit() 
     return states, actions      
   
 states, actions=play_game_randomly()
 
+print('Transition List:')
+
+previous_state=np.zeros((4, 4), dtype=int)
+action_number=0
 for state, action in zip(states, actions):
+    print('action_number: ' + str(action_number))
+    if debug_mode and (np.array_equal(previous_state,state)):
+        print('Unchanged')
+    print('current_state:')
     print(state)
+    print('action:')
+    print(action)
     print_action_code_string(action)
+    action_number=action_number+1
+    previous_state=state

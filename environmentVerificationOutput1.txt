@@ -1,0 +1,5096 @@
+file:////home/bhavik/git/2048ReinforcementLearning/index.html
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 0
+final_attempt_done: 0
+current_state:
+[[0 2 0 0]
+ [0 0 0 2]
+ [0 0 0 0]
+ [0 0 0 0]]
+action:
+1
+next_state:
+[[2 0 0 2]
+ [0 0 0 2]
+ [0 0 0 0]
+ [0 0 0 0]]
+Next action_list: [2, 1, 3, 0]
+Clicking down
+action_number: 1
+final_attempt_done: 0
+current_state:
+[[2 0 0 2]
+ [0 0 0 2]
+ [0 0 0 0]
+ [0 0 0 0]]
+action:
+2
+next_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 0 0 4]]
+Next action_list: [3, 0, 1, 2]
+Clicking left
+action_number: 2
+final_attempt_done: 0
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 0 0 4]]
+action:
+3
+next_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 4 2 0]]
+Next action_list: [3, 2, 1, 0]
+Clicking left
+action_number: 3
+final_attempt_done: 0
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 4 2 0]]
+action:
+3
+next_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 4 2 0]]
+Clicking down
+action_number: 4
+final_attempt_done: 2
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 4 2 0]]
+action:
+2
+next_state:
+[[0 2 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [4 4 2 0]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 5
+final_attempt_done: 0
+current_state:
+[[0 2 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [4 4 2 0]]
+action:
+3
+next_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [2 0 0 0]
+ [8 2 0 0]]
+Next action_list: [3, 0, 1, 2]
+Clicking left
+action_number: 6
+final_attempt_done: 0
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [2 0 0 0]
+ [8 2 0 0]]
+action:
+3
+next_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [2 0 0 0]
+ [8 2 0 0]]
+Clicking up
+action_number: 7
+final_attempt_done: 2
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [2 0 0 0]
+ [8 2 0 0]]
+action:
+0
+next_state:
+[[4 2 0 0]
+ [8 0 0 0]
+ [0 0 2 0]
+ [0 0 0 0]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 8
+final_attempt_done: 0
+current_state:
+[[4 2 0 0]
+ [8 0 0 0]
+ [0 0 2 0]
+ [0 0 0 0]]
+action:
+2
+next_state:
+[[0 0 0 0]
+ [0 2 0 0]
+ [4 0 0 0]
+ [8 2 2 0]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 9
+final_attempt_done: 0
+current_state:
+[[0 0 0 0]
+ [0 2 0 0]
+ [4 0 0 0]
+ [8 2 2 0]]
+action:
+0
+next_state:
+[[4 4 2 0]
+ [8 0 0 0]
+ [0 2 0 0]
+ [0 0 0 0]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 10
+final_attempt_done: 0
+current_state:
+[[4 4 2 0]
+ [8 0 0 0]
+ [0 2 0 0]
+ [0 0 0 0]]
+action:
+1
+next_state:
+[[0 0 8 2]
+ [0 0 0 8]
+ [0 0 2 2]
+ [0 0 0 0]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 11
+final_attempt_done: 0
+current_state:
+[[0 0 8 2]
+ [0 0 0 8]
+ [0 0 2 2]
+ [0 0 0 0]]
+action:
+1
+next_state:
+[[0 0 8 2]
+ [0 0 0 8]
+ [2 0 0 4]
+ [0 0 0 0]]
+Next action_list: [3, 2, 1, 0]
+Clicking left
+action_number: 12
+final_attempt_done: 0
+current_state:
+[[0 0 8 2]
+ [0 0 0 8]
+ [2 0 0 4]
+ [0 0 0 0]]
+action:
+3
+next_state:
+[[8 2 0 0]
+ [8 0 0 0]
+ [2 4 0 0]
+ [2 0 0 0]]
+Next action_list: [2, 0, 1, 3]
+Clicking down
+action_number: 13
+final_attempt_done: 0
+current_state:
+[[8 2 0 0]
+ [8 0 0 0]
+ [2 4 0 0]
+ [2 0 0 0]]
+action:
+2
+next_state:
+[[ 0  0  0  0]
+ [ 0  0  2  0]
+ [16  2  0  0]
+ [ 4  4  0  0]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 14
+final_attempt_done: 0
+current_state:
+[[ 0  0  0  0]
+ [ 0  0  2  0]
+ [16  2  0  0]
+ [ 4  4  0  0]]
+action:
+0
+next_state:
+[[16  2  2  0]
+ [ 4  4  0  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 15
+final_attempt_done: 0
+current_state:
+[[16  2  2  0]
+ [ 4  4  0  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+action:
+1
+next_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 16
+final_attempt_done: 0
+current_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+action:
+1
+next_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+Clicking up
+action_number: 17
+final_attempt_done: 2
+current_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+action:
+0
+next_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+Clicking left
+action_number: 18
+final_attempt_done: 3
+current_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+action:
+3
+next_state:
+[[ 2 16  4  0]
+ [ 8  2  0  0]
+ [ 0  0  2  0]
+ [ 0  0  0  0]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 19
+final_attempt_done: 0
+current_state:
+[[ 2 16  4  0]
+ [ 8  2  0  0]
+ [ 0  0  2  0]
+ [ 0  0  0  0]]
+action:
+0
+next_state:
+[[ 2 16  4  0]
+ [ 8  2  2  0]
+ [ 0  0  0  0]
+ [ 2  0  0  0]]
+Next action_list: [1, 3, 0, 2]
+Clicking right
+action_number: 20
+final_attempt_done: 0
+current_state:
+[[ 2 16  4  0]
+ [ 8  2  2  0]
+ [ 0  0  0  0]
+ [ 2  0  0  0]]
+action:
+1
+next_state:
+[[ 2  2 16  4]
+ [ 0  0  8  4]
+ [ 0  0  0  0]
+ [ 0  0  0  2]]
+Next action_list: [3, 1, 0, 2]
+Clicking left
+action_number: 21
+final_attempt_done: 0
+current_state:
+[[ 2  2 16  4]
+ [ 0  0  8  4]
+ [ 0  0  0  0]
+ [ 0  0  0  2]]
+action:
+3
+next_state:
+[[ 4 16  4  0]
+ [ 8  4  0  2]
+ [ 0  0  0  0]
+ [ 2  0  0  0]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 22
+final_attempt_done: 0
+current_state:
+[[ 4 16  4  0]
+ [ 8  4  0  2]
+ [ 0  0  0  0]
+ [ 2  0  0  0]]
+action:
+2
+next_state:
+[[ 2  0  0  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  4  4  2]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 23
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  4  4  2]]
+action:
+2
+next_state:
+[[ 2  0  0  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  4  4  2]]
+Clicking left
+action_number: 24
+final_attempt_done: 2
+current_state:
+[[ 2  0  0  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  4  4  2]]
+action:
+3
+next_state:
+[[ 2  0  2  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  8  2  0]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 25
+final_attempt_done: 0
+current_state:
+[[ 2  0  2  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  8  2  0]]
+action:
+1
+next_state:
+[[ 0  0  0  4]
+ [ 0  2  0  4]
+ [ 0  0  8 16]
+ [ 0  2  8  2]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 26
+final_attempt_done: 0
+current_state:
+[[ 0  0  0  4]
+ [ 0  2  0  4]
+ [ 0  0  8 16]
+ [ 0  2  8  2]]
+action:
+0
+next_state:
+[[ 2  4 16  8]
+ [ 0  0  0 16]
+ [ 0  0  0  2]
+ [ 0  0  0  0]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 27
+final_attempt_done: 0
+current_state:
+[[ 2  4 16  8]
+ [ 0  0  0 16]
+ [ 0  0  0  2]
+ [ 0  0  0  0]]
+action:
+2
+next_state:
+[[ 2  0  0  0]
+ [ 0  0  0  8]
+ [ 0  0  0 16]
+ [ 2  4 16  2]]
+Next action_list: [0, 1, 3, 2]
+Clicking up
+action_number: 28
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  0]
+ [ 0  0  0  8]
+ [ 0  0  0 16]
+ [ 2  4 16  2]]
+action:
+0
+next_state:
+[[ 4  4 16  8]
+ [ 0  0  0 16]
+ [ 0  0  0  2]
+ [ 0  0  2  0]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 29
+final_attempt_done: 0
+current_state:
+[[ 4  4 16  8]
+ [ 0  0  0 16]
+ [ 0  0  0  2]
+ [ 0  0  2  0]]
+action:
+0
+next_state:
+[[ 4  4 16  8]
+ [ 0  0  2 16]
+ [ 0  0  0  2]
+ [ 0  0  0  2]]
+Next action_list: [2, 0, 1, 3]
+Clicking down
+action_number: 30
+final_attempt_done: 0
+current_state:
+[[ 4  4 16  8]
+ [ 0  0  2 16]
+ [ 0  0  0  2]
+ [ 0  0  0  2]]
+action:
+2
+next_state:
+[[ 0  0  0  0]
+ [ 0  2  0  8]
+ [ 0  0 16 16]
+ [ 4  4  2  4]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 31
+final_attempt_done: 0
+current_state:
+[[ 0  0  0  0]
+ [ 0  2  0  8]
+ [ 0  0 16 16]
+ [ 4  4  2  4]]
+action:
+2
+next_state:
+[[ 0  2  0  0]
+ [ 0  0  0  8]
+ [ 0  2 16 16]
+ [ 4  4  2  4]]
+Next action_list: [2, 0, 1, 3]
+Clicking down
+action_number: 32
+final_attempt_done: 0
+current_state:
+[[ 0  2  0  0]
+ [ 0  0  0  8]
+ [ 0  2 16 16]
+ [ 4  4  2  4]]
+action:
+2
+next_state:
+[[ 2  0  0  0]
+ [ 0  0  0  8]
+ [ 0  4 16 16]
+ [ 4  4  2  4]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 33
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  0]
+ [ 0  0  0  8]
+ [ 0  4 16 16]
+ [ 4  4  2  4]]
+action:
+0
+next_state:
+[[ 2  8 16  8]
+ [ 4  0  2 16]
+ [ 0  0  0  4]
+ [ 0  0  2  0]]
+Next action_list: [1, 3, 0, 2]
+Clicking right
+action_number: 34
+final_attempt_done: 0
+current_state:
+[[ 2  8 16  8]
+ [ 4  0  2 16]
+ [ 0  0  0  4]
+ [ 0  0  2  0]]
+action:
+1
+next_state:
+[[ 2  8 16  8]
+ [ 0  4  2 16]
+ [ 0  0  2  4]
+ [ 0  0  0  2]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 35
+final_attempt_done: 0
+current_state:
+[[ 2  8 16  8]
+ [ 0  4  2 16]
+ [ 0  0  2  4]
+ [ 0  0  0  2]]
+action:
+0
+next_state:
+[[ 2  8 16  8]
+ [ 0  4  4 16]
+ [ 0  2  0  4]
+ [ 0  0  0  2]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 36
+final_attempt_done: 0
+current_state:
+[[ 2  8 16  8]
+ [ 0  4  4 16]
+ [ 0  2  0  4]
+ [ 0  0  0  2]]
+action:
+0
+next_state:
+[[ 2  8 16  8]
+ [ 0  4  4 16]
+ [ 0  2  0  4]
+ [ 0  0  0  2]]
+Clicking down
+action_number: 37
+final_attempt_done: 2
+current_state:
+[[ 2  8 16  8]
+ [ 0  4  4 16]
+ [ 0  2  0  4]
+ [ 0  0  0  2]]
+action:
+2
+next_state:
+[[ 0  0  2  8]
+ [ 0  8  0 16]
+ [ 0  4 16  4]
+ [ 2  2  4  2]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 38
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  8]
+ [ 0  8  0 16]
+ [ 0  4 16  4]
+ [ 2  2  4  2]]
+action:
+3
+next_state:
+[[ 2  8  0  0]
+ [ 8 16  2  0]
+ [ 4 16  4  0]
+ [ 4  4  2  0]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 39
+final_attempt_done: 0
+current_state:
+[[ 2  8  0  0]
+ [ 8 16  2  0]
+ [ 4 16  4  0]
+ [ 4  4  2  0]]
+action:
+1
+next_state:
+[[ 0  0  2  8]
+ [ 0  8 16  2]
+ [ 0  4 16  4]
+ [ 2  0  8  2]]
+Next action_list: [2, 0, 1, 3]
+Clicking down
+action_number: 40
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  8]
+ [ 0  8 16  2]
+ [ 0  4 16  4]
+ [ 2  0  8  2]]
+action:
+2
+next_state:
+[[ 0  0  0  8]
+ [ 0  0  2  2]
+ [ 2  8 32  4]
+ [ 2  4  8  2]]
+Next action_list: [0, 1, 2, 3]
+Clicking up
+action_number: 41
+final_attempt_done: 0
+current_state:
+[[ 0  0  0  8]
+ [ 0  0  2  2]
+ [ 2  8 32  4]
+ [ 2  4  8  2]]
+action:
+0
+next_state:
+[[ 4  8  2  8]
+ [ 0  4 32  2]
+ [ 0  0  8  4]
+ [ 0  2  0  2]]
+Next action_list: [0, 2, 1, 3]
+Clicking up
+action_number: 42
+final_attempt_done: 0
+current_state:
+[[ 4  8  2  8]
+ [ 0  4 32  2]
+ [ 0  0  8  4]
+ [ 0  2  0  2]]
+action:
+0
+next_state:
+[[ 4  8  2  8]
+ [ 0  4 32  2]
+ [ 0  2  8  4]
+ [ 0  2  0  2]]
+Next action_list: [2, 1, 3, 0]
+Clicking down
+action_number: 43
+final_attempt_done: 0
+current_state:
+[[ 4  8  2  8]
+ [ 0  4 32  2]
+ [ 0  2  8  4]
+ [ 0  2  0  2]]
+action:
+2
+next_state:
+[[ 0  0  2  8]
+ [ 0  8  2  2]
+ [ 0  4 32  4]
+ [ 4  4  8  2]]
+Next action_list: [3, 0, 1, 2]
+Clicking left
+action_number: 44
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  8]
+ [ 0  8  2  2]
+ [ 0  4 32  4]
+ [ 4  4  8  2]]
+action:
+3
+next_state:
+[[ 2  8  0  0]
+ [ 8  4  0  2]
+ [ 4 32  4  0]
+ [ 8  8  2  0]]
+Next action_list: [2, 1, 0, 3]
+Clicking down
+action_number: 45
+final_attempt_done: 0
+current_state:
+[[ 2  8  0  0]
+ [ 8  4  0  2]
+ [ 4 32  4  0]
+ [ 8  8  2  0]]
+action:
+2
+next_state:
+[[ 2  8  2  0]
+ [ 8  4  0  0]
+ [ 4 32  4  0]
+ [ 8  8  2  2]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 46
+final_attempt_done: 0
+current_state:
+[[ 2  8  2  0]
+ [ 8  4  0  0]
+ [ 4 32  4  0]
+ [ 8  8  2  2]]
+action:
+2
+next_state:
+[[ 2  8  0  0]
+ [ 8  4  2  2]
+ [ 4 32  4  0]
+ [ 8  8  2  2]]
+Next action_list: [1, 2, 3, 0]
+Clicking right
+action_number: 47
+final_attempt_done: 0
+current_state:
+[[ 2  8  0  0]
+ [ 8  4  2  2]
+ [ 4 32  4  0]
+ [ 8  8  2  2]]
+action:
+1
+next_state:
+[[ 0  0  2  8]
+ [ 0  8  4  4]
+ [ 0  4 32  4]
+ [ 2  0 16  4]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 48
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  8]
+ [ 0  8  4  4]
+ [ 0  4 32  4]
+ [ 2  0 16  4]]
+action:
+0
+next_state:
+[[ 2  8  2  8]
+ [ 2  4  4  8]
+ [ 0  0 32  4]
+ [ 0  0 16  0]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 49
+final_attempt_done: 0
+current_state:
+[[ 2  8  2  8]
+ [ 2  4  4  8]
+ [ 0  0 32  4]
+ [ 0  0 16  0]]
+action:
+2
+next_state:
+[[ 0  0  2  0]
+ [ 2  0  4  0]
+ [ 0  8 32 16]
+ [ 4  4 16  4]]
+Next action_list: [3, 2, 1, 0]
+Clicking left
+action_number: 50
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  0]
+ [ 2  0  4  0]
+ [ 0  8 32 16]
+ [ 4  4 16  4]]
+action:
+3
+next_state:
+[[ 2  0  0  0]
+ [ 2  4  0  0]
+ [ 8 32 16  0]
+ [ 8 16  4  2]]
+Next action_list: [1, 3, 0, 2]
+Clicking right
+action_number: 51
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  0]
+ [ 2  4  0  0]
+ [ 8 32 16  0]
+ [ 8 16  4  2]]
+action:
+1
+next_state:
+[[ 2  0  0  2]
+ [ 0  0  2  4]
+ [ 0  8 32 16]
+ [ 8 16  4  2]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 52
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  2]
+ [ 0  0  2  4]
+ [ 0  8 32 16]
+ [ 8 16  4  2]]
+action:
+0
+next_state:
+[[ 2  8  2  2]
+ [ 8 16 32  4]
+ [ 2  0  4 16]
+ [ 0  0  0  2]]
+Next action_list: [2, 1, 3, 0]
+Clicking down
+action_number: 53
+final_attempt_done: 0
+current_state:
+[[ 2  8  2  2]
+ [ 8 16 32  4]
+ [ 2  0  4 16]
+ [ 0  0  0  2]]
+action:
+2
+next_state:
+[[ 0  2  0  2]
+ [ 2  0  2  4]
+ [ 8  8 32 16]
+ [ 2 16  4  2]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 54
+final_attempt_done: 0
+current_state:
+[[ 0  2  0  2]
+ [ 2  0  2  4]
+ [ 8  8 32 16]
+ [ 2 16  4  2]]
+action:
+0
+next_state:
+[[ 2  2  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  0  2  2]]
+Next action_list: [2, 0, 1, 3]
+Clicking down
+action_number: 55
+final_attempt_done: 0
+current_state:
+[[ 2  2  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  0  2  2]]
+action:
+2
+next_state:
+[[ 0  2  2  2]
+ [ 2  2 32  4]
+ [ 8  8  4 16]
+ [ 2 16  2  2]]
+Next action_list: [0, 1, 3, 2]
+Clicking up
+action_number: 56
+final_attempt_done: 0
+current_state:
+[[ 0  2  2  2]
+ [ 2  2 32  4]
+ [ 8  8  4 16]
+ [ 2 16  2  2]]
+action:
+0
+next_state:
+[[ 2  4  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  2  2  2]]
+Next action_list: [0, 1, 3, 2]
+Clicking up
+action_number: 57
+final_attempt_done: 0
+current_state:
+[[ 2  4  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  2  2  2]]
+action:
+0
+next_state:
+[[ 2  4  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  2  2  2]]
+Clicking right
+action_number: 58
+final_attempt_done: 2
+current_state:
+[[ 2  4  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  2  2  2]]
+action:
+1
+next_state:
+[[ 0  2  4  4]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 0  0  2  4]]
+Next action_list: [1, 3, 0, 2]
+Clicking right
+action_number: 59
+final_attempt_done: 0
+current_state:
+[[ 0  2  4  4]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 0  0  2  4]]
+action:
+1
+next_state:
+[[ 0  0  2  8]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 2  0  2  4]]
+Next action_list: [3, 2, 0, 1]
+Clicking left
+action_number: 60
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  8]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 2  0  2  4]]
+action:
+3
+next_state:
+[[ 2  8  0  0]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 4  4  2  0]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 61
+final_attempt_done: 0
+current_state:
+[[ 2  8  0  0]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 4  4  2  0]]
+action:
+0
+next_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  0]
+ [ 0  0  0  2]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 62
+final_attempt_done: 0
+current_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  0]
+ [ 0  0  0  2]]
+action:
+0
+next_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  2]
+ [ 2  0  0  0]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 63
+final_attempt_done: 0
+current_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  2]
+ [ 2  0  0  0]]
+action:
+0
+next_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  2]
+ [ 2  0  0  0]]
+Clicking left
+action_number: 64
+final_attempt_done: 2
+current_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  2]
+ [ 2  0  0  0]]
+action:
+3
+next_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 8  4  0  0]
+ [ 2  2  0  0]]
+Next action_list: [2, 0, 1, 3]
+Clicking down
+action_number: 65
+final_attempt_done: 0
+current_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 8  4  0  0]
+ [ 2  2  0  0]]
+action:
+2
+next_state:
+[[ 4  8  0  2]
+ [ 2 32  0  0]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+Next action_list: [2, 1, 3, 0]
+Clicking down
+action_number: 66
+final_attempt_done: 0
+current_state:
+[[ 4  8  0  2]
+ [ 2 32  0  0]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+action:
+2
+next_state:
+[[ 4  8  0  0]
+ [ 2 32  2  2]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 67
+final_attempt_done: 0
+current_state:
+[[ 4  8  0  0]
+ [ 2 32  2  2]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+action:
+2
+next_state:
+[[ 4  8  0  0]
+ [ 2 32  2  2]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+Clicking up
+action_number: 68
+final_attempt_done: 2
+current_state:
+[[ 4  8  0  0]
+ [ 2 32  2  2]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+action:
+0
+next_state:
+[[ 4  8  2  2]
+ [ 2 32 32  4]
+ [ 8  4  4 16]
+ [ 2  2  2  0]]
+Next action_list: [0, 1, 2, 3]
+Clicking up
+action_number: 69
+final_attempt_done: 0
+current_state:
+[[ 4  8  2  2]
+ [ 2 32 32  4]
+ [ 8  4  4 16]
+ [ 2  2  2  0]]
+action:
+0
+next_state:
+[[ 4  8  2  2]
+ [ 2 32 32  4]
+ [ 8  4  4 16]
+ [ 2  2  2  0]]
+Clicking right
+action_number: 70
+final_attempt_done: 2
+current_state:
+[[ 4  8  2  2]
+ [ 2 32 32  4]
+ [ 8  4  4 16]
+ [ 2  2  2  0]]
+action:
+1
+next_state:
+[[ 0  4  8  4]
+ [ 0  2 64  4]
+ [ 2  8  8 16]
+ [ 0  0  2  4]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 71
+final_attempt_done: 0
+current_state:
+[[ 0  4  8  4]
+ [ 0  2 64  4]
+ [ 2  8  8 16]
+ [ 0  0  2  4]]
+action:
+2
+next_state:
+[[ 2  0  8  0]
+ [ 0  4 64  8]
+ [ 0  2  8 16]
+ [ 2  8  2  4]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 72
+final_attempt_done: 0
+current_state:
+[[ 2  0  8  0]
+ [ 0  4 64  8]
+ [ 0  2  8 16]
+ [ 2  8  2  4]]
+action:
+2
+next_state:
+[[ 0  0  8  0]
+ [ 2  4 64  8]
+ [ 0  2  8 16]
+ [ 4  8  2  4]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 73
+final_attempt_done: 0
+current_state:
+[[ 0  0  8  0]
+ [ 2  4 64  8]
+ [ 0  2  8 16]
+ [ 4  8  2  4]]
+action:
+3
+next_state:
+[[ 8  0  2  0]
+ [ 2  4 64  8]
+ [ 2  8 16  0]
+ [ 4  8  2  4]]
+Next action_list: [3, 1, 2, 0]
+Clicking left
+action_number: 74
+final_attempt_done: 0
+current_state:
+[[ 8  0  2  0]
+ [ 2  4 64  8]
+ [ 2  8 16  0]
+ [ 4  8  2  4]]
+action:
+3
+next_state:
+[[ 8  2  0  0]
+ [ 2  4 64  8]
+ [ 2  8 16  2]
+ [ 4  8  2  4]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 75
+final_attempt_done: 0
+current_state:
+[[ 8  2  0  0]
+ [ 2  4 64  8]
+ [ 2  8 16  2]
+ [ 4  8  2  4]]
+action:
+0
+next_state:
+[[ 8  2 64  8]
+ [ 4  4 16  2]
+ [ 4 16  2  4]
+ [ 2  0  0  0]]
+Next action_list: [1, 3, 0, 2]
+Clicking right
+action_number: 76
+final_attempt_done: 0
+current_state:
+[[ 8  2 64  8]
+ [ 4  4 16  2]
+ [ 4 16  2  4]
+ [ 2  0  0  0]]
+action:
+1
+next_state:
+[[ 8  2 64  8]
+ [ 0  8 16  2]
+ [ 4 16  2  4]
+ [ 0  2  0  2]]
+Next action_list: [3, 1, 0, 2]
+Clicking left
+action_number: 77
+final_attempt_done: 0
+current_state:
+[[ 8  2 64  8]
+ [ 0  8 16  2]
+ [ 4 16  2  4]
+ [ 0  2  0  2]]
+action:
+3
+next_state:
+[[ 8  2 64  8]
+ [ 8 16  2  2]
+ [ 4 16  2  4]
+ [ 4  0  0  0]]
+Next action_list: [2, 3, 1, 0]
+Clicking down
+action_number: 78
+final_attempt_done: 0
+current_state:
+[[ 8  2 64  8]
+ [ 8 16  2  2]
+ [ 4 16  2  4]
+ [ 4  0  0  0]]
+action:
+2
+next_state:
+[[ 0  2  0  0]
+ [ 0  0  0  8]
+ [16  2 64  2]
+ [ 8 32  4  4]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 79
+final_attempt_done: 0
+current_state:
+[[ 0  2  0  0]
+ [ 0  0  0  8]
+ [16  2 64  2]
+ [ 8 32  4  4]]
+action:
+1
+next_state:
+[[ 0  2  0  2]
+ [ 0  0  0  8]
+ [16  2 64  2]
+ [ 0  8 32  8]]
+Next action_list: [2, 3, 1, 0]
+Clicking down
+action_number: 80
+final_attempt_done: 0
+current_state:
+[[ 0  2  0  2]
+ [ 0  0  0  8]
+ [16  2 64  2]
+ [ 0  8 32  8]]
+action:
+2
+next_state:
+[[ 0  0  0  2]
+ [ 2  0  0  8]
+ [ 0  4 64  2]
+ [16  8 32  8]]
+Next action_list: [0, 1, 2, 3]
+Clicking up
+action_number: 81
+final_attempt_done: 0
+current_state:
+[[ 0  0  0  2]
+ [ 2  0  0  8]
+ [ 0  4 64  2]
+ [16  8 32  8]]
+action:
+0
+next_state:
+[[ 2  4 64  2]
+ [16  8 32  8]
+ [ 2  0  0  2]
+ [ 0  0  0  8]]
+Next action_list: [1, 2, 0, 3]
+Clicking right
+action_number: 82
+final_attempt_done: 0
+current_state:
+[[ 2  4 64  2]
+ [16  8 32  8]
+ [ 2  0  0  2]
+ [ 0  0  0  8]]
+action:
+1
+next_state:
+[[ 2  4 64  2]
+ [16  8 32  8]
+ [ 0  0  0  4]
+ [ 0  0  2  8]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 83
+final_attempt_done: 0
+current_state:
+[[ 2  4 64  2]
+ [16  8 32  8]
+ [ 0  0  0  4]
+ [ 0  0  2  8]]
+action:
+2
+next_state:
+[[ 0  0  2  2]
+ [ 0  0 64  8]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+Next action_list: [3, 1, 0, 2]
+Clicking left
+action_number: 84
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  2]
+ [ 0  0 64  8]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+3
+next_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+Next action_list: [3, 2, 1, 0]
+Clicking left
+action_number: 85
+final_attempt_done: 0
+current_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+3
+next_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+Clicking down
+action_number: 86
+final_attempt_done: 2
+current_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+2
+next_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+Clicking right
+action_number: 87
+final_attempt_done: 3
+current_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+1
+next_state:
+[[ 0  0  0  4]
+ [ 2 64  8  2]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+Next action_list: [2, 3, 1, 0]
+Clicking down
+action_number: 88
+final_attempt_done: 0
+current_state:
+[[ 0  0  0  4]
+ [ 2 64  8  2]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+2
+next_state:
+[[ 0  0  0  4]
+ [ 2 64  8  2]
+ [ 4  4 32  4]
+ [16  8  2  8]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 89
+final_attempt_done: 0
+current_state:
+[[ 0  0  0  4]
+ [ 2 64  8  2]
+ [ 4  4 32  4]
+ [16  8  2  8]]
+action:
+3
+next_state:
+[[ 4  2  0  0]
+ [ 2 64  8  2]
+ [ 8 32  4  0]
+ [16  8  2  8]]
+Next action_list: [3, 1, 2, 0]
+Clicking left
+action_number: 90
+final_attempt_done: 0
+current_state:
+[[ 4  2  0  0]
+ [ 2 64  8  2]
+ [ 8 32  4  0]
+ [16  8  2  8]]
+action:
+3
+next_state:
+[[ 4  2  0  0]
+ [ 2 64  8  2]
+ [ 8 32  4  0]
+ [16  8  2  8]]
+Clicking right
+action_number: 91
+final_attempt_done: 2
+current_state:
+[[ 4  2  0  0]
+ [ 2 64  8  2]
+ [ 8 32  4  0]
+ [16  8  2  8]]
+action:
+1
+next_state:
+[[ 2  0  4  2]
+ [ 2 64  8  2]
+ [ 0  8 32  4]
+ [16  8  2  8]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 92
+final_attempt_done: 0
+current_state:
+[[ 2  0  4  2]
+ [ 2 64  8  2]
+ [ 0  8 32  4]
+ [16  8  2  8]]
+action:
+1
+next_state:
+[[ 0  2  4  2]
+ [ 2 64  8  2]
+ [ 2  8 32  4]
+ [16  8  2  8]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 93
+final_attempt_done: 0
+current_state:
+[[ 0  2  4  2]
+ [ 2 64  8  2]
+ [ 2  8 32  4]
+ [16  8  2  8]]
+action:
+1
+next_state:
+[[ 0  2  4  2]
+ [ 2 64  8  2]
+ [ 2  8 32  4]
+ [16  8  2  8]]
+Clicking up
+action_number: 94
+final_attempt_done: 2
+current_state:
+[[ 0  2  4  2]
+ [ 2 64  8  2]
+ [ 2  8 32  4]
+ [16  8  2  8]]
+action:
+0
+next_state:
+[[ 4  2  4  4]
+ [16 64  8  4]
+ [ 2 16 32  8]
+ [ 0  0  2  0]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 95
+final_attempt_done: 0
+current_state:
+[[ 4  2  4  4]
+ [16 64  8  4]
+ [ 2 16 32  8]
+ [ 0  0  2  0]]
+action:
+0
+next_state:
+[[ 4  2  4  8]
+ [16 64  8  8]
+ [ 2 16 32  0]
+ [ 0  0  2  2]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 96
+final_attempt_done: 0
+current_state:
+[[ 4  2  4  8]
+ [16 64  8  8]
+ [ 2 16 32  0]
+ [ 0  0  2  2]]
+action:
+1
+next_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  2 16 32]
+ [ 0  2  0  4]]
+Next action_list: [0, 1, 3, 2]
+Clicking up
+action_number: 97
+final_attempt_done: 0
+current_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  2 16 32]
+ [ 0  2  0  4]]
+action:
+0
+next_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  4 16 32]
+ [ 0  2  0  4]]
+Next action_list: [3, 1, 0, 2]
+Clicking left
+action_number: 98
+final_attempt_done: 0
+current_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  4 16 32]
+ [ 0  2  0  4]]
+action:
+3
+next_state:
+[[ 4  2  4  8]
+ [16 64 16  0]
+ [ 4 16 32  0]
+ [ 2  4  0  2]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 99
+final_attempt_done: 0
+current_state:
+[[ 4  2  4  8]
+ [16 64 16  0]
+ [ 4 16 32  0]
+ [ 2  4  0  2]]
+action:
+1
+next_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  4 16 32]
+ [ 2  2  4  2]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 100
+final_attempt_done: 0
+current_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  4 16 32]
+ [ 2  2  4  2]]
+action:
+2
+next_state:
+[[ 2  2  4  8]
+ [ 0 16 64 16]
+ [ 4  4 16 32]
+ [ 2  2  4  2]]
+Next action_list: [0, 1, 2, 3]
+Clicking up
+action_number: 101
+final_attempt_done: 0
+current_state:
+[[ 2  2  4  8]
+ [ 0 16 64 16]
+ [ 4  4 16 32]
+ [ 2  2  4  2]]
+action:
+0
+next_state:
+[[ 2  2  4  8]
+ [ 4 16 64 16]
+ [ 2  4 16 32]
+ [ 2  2  4  2]]
+Next action_list: [3, 2, 1, 0]
+Clicking left
+action_number: 102
+final_attempt_done: 0
+current_state:
+[[ 2  2  4  8]
+ [ 4 16 64 16]
+ [ 2  4 16 32]
+ [ 2  2  4  2]]
+action:
+3
+next_state:
+[[ 4  4  8  4]
+ [ 4 16 64 16]
+ [ 2  4 16 32]
+ [ 4  4  2  0]]
+Next action_list: [2, 0, 1, 3]
+Clicking down
+action_number: 103
+final_attempt_done: 0
+current_state:
+[[ 4  4  8  4]
+ [ 4 16 64 16]
+ [ 2  4 16 32]
+ [ 4  4  2  0]]
+action:
+2
+next_state:
+[[ 2  0  8  0]
+ [ 8  4 64  4]
+ [ 2 16 16 16]
+ [ 4  8  2 32]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 104
+final_attempt_done: 0
+current_state:
+[[ 2  0  8  0]
+ [ 8  4 64  4]
+ [ 2 16 16 16]
+ [ 4  8  2 32]]
+action:
+0
+next_state:
+[[ 2  4  8  4]
+ [ 8 16 64 16]
+ [ 2  8 16 32]
+ [ 4  2  2  0]]
+Next action_list: [1, 2, 0, 3]
+Clicking right
+action_number: 105
+final_attempt_done: 0
+current_state:
+[[ 2  4  8  4]
+ [ 8 16 64 16]
+ [ 2  8 16 32]
+ [ 4  2  2  0]]
+action:
+1
+next_state:
+[[ 2  4  8  4]
+ [ 8 16 64 16]
+ [ 2  8 16 32]
+ [ 0  2  4  4]]
+Next action_list: [2, 1, 0, 3]
+Clicking down
+action_number: 106
+final_attempt_done: 0
+current_state:
+[[ 2  4  8  4]
+ [ 8 16 64 16]
+ [ 2  8 16 32]
+ [ 0  2  4  4]]
+action:
+2
+next_state:
+[[ 4  4  8  4]
+ [ 2 16 64 16]
+ [ 8  8 16 32]
+ [ 2  2  4  4]]
+Next action_list: [2, 1, 3, 0]
+Clicking down
+action_number: 107
+final_attempt_done: 0
+current_state:
+[[ 4  4  8  4]
+ [ 2 16 64 16]
+ [ 8  8 16 32]
+ [ 2  2  4  4]]
+action:
+2
+next_state:
+[[ 4  4  8  4]
+ [ 2 16 64 16]
+ [ 8  8 16 32]
+ [ 2  2  4  4]]
+Clicking right
+action_number: 108
+final_attempt_done: 2
+current_state:
+[[ 4  4  8  4]
+ [ 2 16 64 16]
+ [ 8  8 16 32]
+ [ 2  2  4  4]]
+action:
+1
+next_state:
+[[ 0  8  8  4]
+ [ 2 16 64 16]
+ [ 2 16 16 32]
+ [ 0  0  4  8]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 109
+final_attempt_done: 0
+current_state:
+[[ 0  8  8  4]
+ [ 2 16 64 16]
+ [ 2 16 16 32]
+ [ 0  0  4  8]]
+action:
+2
+next_state:
+[[ 0  2  8  4]
+ [ 0  0 64 16]
+ [ 0  8 16 32]
+ [ 4 32  4  8]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 110
+final_attempt_done: 0
+current_state:
+[[ 0  2  8  4]
+ [ 0  0 64 16]
+ [ 0  8 16 32]
+ [ 4 32  4  8]]
+action:
+3
+next_state:
+[[ 2  8  4  0]
+ [64 16  0  0]
+ [ 8 16 32  2]
+ [ 4 32  4  8]]
+Next action_list: [2, 1, 0, 3]
+Clicking down
+action_number: 111
+final_attempt_done: 0
+current_state:
+[[ 2  8  4  0]
+ [64 16  0  0]
+ [ 8 16 32  2]
+ [ 4 32  4  8]]
+action:
+2
+next_state:
+[[ 2  0  0  0]
+ [64  8  4  2]
+ [ 8 32 32  2]
+ [ 4 32  4  8]]
+Next action_list: [1, 2, 0, 3]
+Clicking right
+action_number: 112
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  0]
+ [64  8  4  2]
+ [ 8 32 32  2]
+ [ 4 32  4  8]]
+action:
+1
+next_state:
+[[ 0  0  2  2]
+ [64  8  4  2]
+ [ 0  8 64  2]
+ [ 4 32  4  8]]
+Next action_list: [1, 2, 3, 0]
+Clicking right
+action_number: 113
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  2]
+ [64  8  4  2]
+ [ 0  8 64  2]
+ [ 4 32  4  8]]
+action:
+1
+next_state:
+[[ 2  0  0  4]
+ [64  8  4  2]
+ [ 0  8 64  2]
+ [ 4 32  4  8]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 114
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  4]
+ [64  8  4  2]
+ [ 0  8 64  2]
+ [ 4 32  4  8]]
+action:
+0
+next_state:
+[[ 2 16  4  4]
+ [64 32 64  4]
+ [ 4  0  4  8]
+ [ 0  2  0  0]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 115
+final_attempt_done: 0
+current_state:
+[[ 2 16  4  4]
+ [64 32 64  4]
+ [ 4  0  4  8]
+ [ 0  2  0  0]]
+action:
+3
+next_state:
+[[ 2 16  8  0]
+ [64 32 64  4]
+ [ 8  8  0  2]
+ [ 2  0  0  0]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 116
+final_attempt_done: 0
+current_state:
+[[ 2 16  8  0]
+ [64 32 64  4]
+ [ 8  8  0  2]
+ [ 2  0  0  0]]
+action:
+2
+next_state:
+[[ 2  0  0  0]
+ [64 16  0  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+Next action_list: [1, 3, 0, 2]
+Clicking right
+action_number: 117
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  0]
+ [64 16  0  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+action:
+1
+next_state:
+[[ 0  0  2  2]
+ [ 0 64 16  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+Next action_list: [1, 2, 3, 0]
+Clicking right
+action_number: 118
+final_attempt_done: 0
+current_state:
+[[ 0  0  2  2]
+ [ 0 64 16  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+action:
+1
+next_state:
+[[ 0  0  0  4]
+ [ 2 64 16  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+Next action_list: [0, 1, 2, 3]
+Clicking up
+action_number: 119
+final_attempt_done: 0
+current_state:
+[[ 0  0  0  4]
+ [ 2 64 16  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+action:
+0
+next_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  2]]
+Next action_list: [0, 1, 2, 3]
+Clicking up
+action_number: 120
+final_attempt_done: 0
+current_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  2]]
+action:
+0
+next_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  2]]
+Clicking right
+action_number: 121
+final_attempt_done: 2
+current_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  2]]
+action:
+1
+next_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  4]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 122
+final_attempt_done: 0
+current_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  4]]
+action:
+2
+next_state:
+[[ 0 64  2  0]
+ [ 2 32 16  4]
+ [ 8  8  8  2]
+ [ 2  2 64  8]]
+Next action_list: [2, 1, 0, 3]
+Clicking down
+action_number: 123
+final_attempt_done: 0
+current_state:
+[[ 0 64  2  0]
+ [ 2 32 16  4]
+ [ 8  8  8  2]
+ [ 2  2 64  8]]
+action:
+2
+next_state:
+[[ 0 64  2  0]
+ [ 2 32 16  4]
+ [ 8  8  8  2]
+ [ 2  2 64  8]]
+Clicking right
+action_number: 124
+final_attempt_done: 2
+current_state:
+[[ 0 64  2  0]
+ [ 2 32 16  4]
+ [ 8  8  8  2]
+ [ 2  2 64  8]]
+action:
+1
+next_state:
+[[ 0  0 64  2]
+ [ 2 32 16  4]
+ [ 0  8 16  2]
+ [ 2  4 64  8]]
+Next action_list: [2, 3, 0, 1]
+Clicking down
+action_number: 125
+final_attempt_done: 0
+current_state:
+[[ 0  0 64  2]
+ [ 2 32 16  4]
+ [ 0  8 16  2]
+ [ 2  4 64  8]]
+action:
+2
+next_state:
+[[ 2  0  0  2]
+ [ 0 32 64  4]
+ [ 0  8 32  2]
+ [ 4  4 64  8]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 126
+final_attempt_done: 0
+current_state:
+[[ 2  0  0  2]
+ [ 0 32 64  4]
+ [ 0  8 32  2]
+ [ 4  4 64  8]]
+action:
+0
+next_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 0  4 64  2]
+ [ 2  0  0  8]]
+Next action_list: [3, 2, 0, 1]
+Clicking left
+action_number: 127
+final_attempt_done: 0
+current_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 0  4 64  2]
+ [ 2  0  0  8]]
+action:
+3
+next_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 4 64  2  2]
+ [ 2  8  0  0]]
+Next action_list: [1, 2, 3, 0]
+Clicking right
+action_number: 128
+final_attempt_done: 0
+current_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 4 64  2  2]
+ [ 2  8  0  0]]
+action:
+1
+next_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 2  4 64  4]
+ [ 0  0  2  8]]
+Next action_list: [0, 2, 1, 3]
+Clicking up
+action_number: 129
+final_attempt_done: 0
+current_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 2  4 64  4]
+ [ 0  0  2  8]]
+action:
+0
+next_state:
+[[ 2 32 64  2]
+ [ 4  8 32  8]
+ [ 2  4 64  8]
+ [ 0  0  2  2]]
+Next action_list: [2, 1, 3, 0]
+Clicking down
+action_number: 130
+final_attempt_done: 0
+current_state:
+[[ 2 32 64  2]
+ [ 4  8 32  8]
+ [ 2  4 64  8]
+ [ 0  0  2  2]]
+action:
+2
+next_state:
+[[ 0  2 64  0]
+ [ 2 32 32  2]
+ [ 4  8 64 16]
+ [ 2  4  2  2]]
+Next action_list: [3, 1, 0, 2]
+Clicking left
+action_number: 131
+final_attempt_done: 0
+current_state:
+[[ 0  2 64  0]
+ [ 2 32 32  2]
+ [ 4  8 64 16]
+ [ 2  4  2  2]]
+action:
+3
+next_state:
+[[ 2 64  0  2]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  4  4  0]]
+Next action_list: [3, 0, 1, 2]
+Clicking left
+action_number: 132
+final_attempt_done: 0
+current_state:
+[[ 2 64  0  2]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  4  4  0]]
+action:
+3
+next_state:
+[[ 2 64  2  0]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  8  0  2]]
+Next action_list: [3, 2, 1, 0]
+Clicking left
+action_number: 133
+final_attempt_done: 0
+current_state:
+[[ 2 64  2  0]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  8  0  2]]
+action:
+3
+next_state:
+[[ 2 64  2  0]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  8  2  2]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 134
+final_attempt_done: 0
+current_state:
+[[ 2 64  2  0]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  8  2  2]]
+action:
+0
+next_state:
+[[  4 128   4  16]
+ [  4  16  64   2]
+ [  2   0   2   0]
+ [  0   0   2   0]]
+Next action_list: [0, 1, 3, 2]
+Clicking up
+action_number: 135
+final_attempt_done: 0
+current_state:
+[[  4 128   4  16]
+ [  4  16  64   2]
+ [  2   0   2   0]
+ [  0   0   2   0]]
+action:
+0
+next_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  0   0   4   0]
+ [  0   2   0   0]]
+Next action_list: [3, 1, 2, 0]
+Clicking left
+action_number: 136
+final_attempt_done: 0
+current_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  0   0   4   0]
+ [  0   2   0   0]]
+action:
+3
+next_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  4   0   2   0]
+ [  2   0   0   0]]
+Next action_list: [3, 0, 1, 2]
+Clicking left
+action_number: 137
+final_attempt_done: 0
+current_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  4   0   2   0]
+ [  2   0   0   0]]
+action:
+3
+next_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  4   2   2   0]
+ [  2   0   0   0]]
+Next action_list: [2, 1, 3, 0]
+Clicking down
+action_number: 138
+final_attempt_done: 0
+current_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  4   2   2   0]
+ [  2   0   0   0]]
+action:
+2
+next_state:
+[[  8   0   2   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  2   2   2   2]]
+Next action_list: [3, 0, 1, 2]
+Clicking left
+action_number: 139
+final_attempt_done: 0
+current_state:
+[[  8   0   2   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  2   2   2   2]]
+action:
+3
+next_state:
+[[  8   2   2   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  4   4   0   0]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 140
+final_attempt_done: 0
+current_state:
+[[  8   2   2   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  4   4   0   0]]
+action:
+1
+next_state:
+[[  0   2   8   4]
+ [  0   2 128   4]
+ [  4  16  64  16]
+ [  0   0   0   8]]
+Next action_list: [3, 0, 1, 2]
+Clicking left
+action_number: 141
+final_attempt_done: 0
+current_state:
+[[  0   2   8   4]
+ [  0   2 128   4]
+ [  4  16  64  16]
+ [  0   0   0   8]]
+action:
+3
+next_state:
+[[  2   8   4   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  8   0   2   0]]
+Next action_list: [0, 1, 2, 3]
+Clicking up
+action_number: 142
+final_attempt_done: 0
+current_state:
+[[  2   8   4   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  8   0   2   0]]
+action:
+0
+next_state:
+[[  4   8   8  16]
+ [  4 128  64   0]
+ [  8  16   2   0]
+ [  0   2   0   0]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 143
+final_attempt_done: 0
+current_state:
+[[  4   8   8  16]
+ [  4 128  64   0]
+ [  8  16   2   0]
+ [  0   2   0   0]]
+action:
+2
+next_state:
+[[  2   8   0   0]
+ [  0 128   8   0]
+ [  8  16  64   0]
+ [  8   2   2  16]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 144
+final_attempt_done: 0
+current_state:
+[[  2   8   0   0]
+ [  0 128   8   0]
+ [  8  16  64   0]
+ [  8   2   2  16]]
+action:
+0
+next_state:
+[[  2   8   8  16]
+ [ 16 128  64   0]
+ [  0  16   2   0]
+ [  2   2   0   0]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 145
+final_attempt_done: 0
+current_state:
+[[  2   8   8  16]
+ [ 16 128  64   0]
+ [  0  16   2   0]
+ [  2   2   0   0]]
+action:
+2
+next_state:
+[[  2   8   0   0]
+ [  2 128   8   0]
+ [ 16  16  64   0]
+ [  2   2   2  16]]
+Next action_list: [0, 2, 1, 3]
+Clicking up
+action_number: 146
+final_attempt_done: 0
+current_state:
+[[  2   8   0   0]
+ [  2 128   8   0]
+ [ 16  16  64   0]
+ [  2   2   2  16]]
+action:
+0
+next_state:
+[[  4   8   8  16]
+ [ 16 128  64   0]
+ [  2  16   2   0]
+ [  0   2   2   0]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 147
+final_attempt_done: 0
+current_state:
+[[  4   8   8  16]
+ [ 16 128  64   0]
+ [  2  16   2   0]
+ [  0   2   2   0]]
+action:
+2
+next_state:
+[[  0   8   0   0]
+ [  4 128   8   0]
+ [ 16  16  64   2]
+ [  2   2   4  16]]
+Next action_list: [0, 1, 3, 2]
+Clicking up
+action_number: 148
+final_attempt_done: 0
+current_state:
+[[  0   8   0   0]
+ [  4 128   8   0]
+ [ 16  16  64   2]
+ [  2   2   4  16]]
+action:
+0
+next_state:
+[[  4   8   8   2]
+ [ 16 128  64  16]
+ [  2  16   4   0]
+ [  2   2   0   0]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 149
+final_attempt_done: 0
+current_state:
+[[  4   8   8   2]
+ [ 16 128  64  16]
+ [  2  16   4   0]
+ [  2   2   0   0]]
+action:
+0
+next_state:
+[[  4   8   8   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   2   0   0]]
+Next action_list: [1, 2, 0, 3]
+Clicking right
+action_number: 150
+final_attempt_done: 0
+current_state:
+[[  4   8   8   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   2   0   0]]
+action:
+1
+next_state:
+[[  0   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  2   0   0   4]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 151
+final_attempt_done: 0
+current_state:
+[[  0   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  2   0   0   4]]
+action:
+1
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  0   0   2   4]]
+Next action_list: [3, 1, 0, 2]
+Clicking left
+action_number: 152
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  0   0   2   4]]
+action:
+3
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   4   2   0]]
+Next action_list: [3, 1, 0, 2]
+Clicking left
+action_number: 153
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   4   2   0]]
+action:
+3
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   4   2   0]]
+Clicking right
+action_number: 154
+final_attempt_done: 2
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   4   2   0]]
+action:
+1
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  2   2   4   2]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 155
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  2   2   4   2]]
+action:
+0
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  2   2   4   2]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 156
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  2   2   4   2]]
+action:
+3
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  4   4   2   2]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 157
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  4   4   2   2]]
+action:
+3
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  8   4   0   2]]
+Next action_list: [1, 2, 3, 0]
+Clicking right
+action_number: 158
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  8   4   0   2]]
+action:
+1
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  2   8   4   2]]
+Next action_list: [0, 1, 3, 2]
+Clicking up
+action_number: 159
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  2   8   4   2]]
+action:
+0
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4   4  16   4]
+ [  2   8   4   2]]
+Next action_list: [3, 1, 0, 2]
+Clicking left
+action_number: 160
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4   4  16   4]
+ [  2   8   4   2]]
+action:
+3
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+Next action_list: [3, 1, 2, 0]
+Clicking left
+action_number: 161
+final_attempt_done: 0
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+action:
+3
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+Clicking right
+action_number: 162
+final_attempt_done: 2
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+action:
+1
+next_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+Clicking down
+action_number: 163
+final_attempt_done: 3
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+action:
+2
+next_state:
+[[  2   4   0   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2   8   8   4]]
+Next action_list: [3, 0, 1, 2]
+Clicking left
+action_number: 164
+final_attempt_done: 0
+current_state:
+[[  2   4   0   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2   8   8   4]]
+action:
+3
+next_state:
+[[  2   4   2   0]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+Next action_list: [1, 2, 0, 3]
+Clicking right
+action_number: 165
+final_attempt_done: 0
+current_state:
+[[  2   4   2   0]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+1
+next_state:
+[[  2   2   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 166
+final_attempt_done: 0
+current_state:
+[[  2   2   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+1
+next_state:
+[[  2   4   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+Next action_list: [3, 2, 1, 0]
+Clicking left
+action_number: 167
+final_attempt_done: 0
+current_state:
+[[  2   4   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+3
+next_state:
+[[  2   8   2   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 168
+final_attempt_done: 0
+current_state:
+[[  2   8   2   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+3
+next_state:
+[[  2   8   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 169
+final_attempt_done: 0
+current_state:
+[[  2   8   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+1
+next_state:
+[[  2   8   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+Clicking up
+action_number: 170
+final_attempt_done: 2
+current_state:
+[[  2   8   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+0
+next_state:
+[[  2   8   4   4]
+ [ 16 128  16  16]
+ [  8  32  64   2]
+ [  2   0   4   2]]
+Next action_list: [0, 2, 1, 3]
+Clicking up
+action_number: 171
+final_attempt_done: 0
+current_state:
+[[  2   8   4   4]
+ [ 16 128  16  16]
+ [  8  32  64   2]
+ [  2   0   4   2]]
+action:
+0
+next_state:
+[[  2   8   4   4]
+ [ 16 128  16  16]
+ [  8  32  64   4]
+ [  2   0   4   2]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 172
+final_attempt_done: 0
+current_state:
+[[  2   8   4   4]
+ [ 16 128  16  16]
+ [  8  32  64   4]
+ [  2   0   4   2]]
+action:
+1
+next_state:
+[[  2   2   8   8]
+ [  0  16 128  32]
+ [  8  32  64   4]
+ [  0   2   4   2]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 173
+final_attempt_done: 0
+current_state:
+[[  2   2   8   8]
+ [  0  16 128  32]
+ [  8  32  64   4]
+ [  0   2   4   2]]
+action:
+2
+next_state:
+[[  0   2   8   8]
+ [  2  16 128  32]
+ [  2  32  64   4]
+ [  8   2   4   2]]
+Next action_list: [2, 1, 0, 3]
+Clicking down
+action_number: 174
+final_attempt_done: 0
+current_state:
+[[  0   2   8   8]
+ [  2  16 128  32]
+ [  2  32  64   4]
+ [  8   2   4   2]]
+action:
+2
+next_state:
+[[  0   2   8   8]
+ [  2  16 128  32]
+ [  4  32  64   4]
+ [  8   2   4   2]]
+Next action_list: [0, 1, 3, 2]
+Clicking up
+action_number: 175
+final_attempt_done: 0
+current_state:
+[[  0   2   8   8]
+ [  2  16 128  32]
+ [  4  32  64   4]
+ [  8   2   4   2]]
+action:
+0
+next_state:
+[[  2   2   8   8]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   2   4   2]]
+Next action_list: [1, 3, 2, 0]
+Clicking right
+action_number: 176
+final_attempt_done: 0
+current_state:
+[[  2   2   8   8]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   2   4   2]]
+action:
+1
+next_state:
+[[  0   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  0   4   4   2]]
+Next action_list: [2, 0, 3, 1]
+Clicking down
+action_number: 177
+final_attempt_done: 0
+current_state:
+[[  0   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  0   4   4   2]]
+action:
+2
+next_state:
+[[  0   2   4  16]
+ [  2  16 128  32]
+ [  4  32  64   4]
+ [  8   4   4   2]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 178
+final_attempt_done: 0
+current_state:
+[[  0   2   4  16]
+ [  2  16 128  32]
+ [  4  32  64   4]
+ [  8   4   4   2]]
+action:
+0
+next_state:
+[[  2   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   4   4   2]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 179
+final_attempt_done: 0
+current_state:
+[[  2   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   4   4   2]]
+action:
+0
+next_state:
+[[  2   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   4   4   2]]
+Clicking left
+action_number: 180
+final_attempt_done: 2
+current_state:
+[[  2   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   4   4   2]]
+action:
+3
+next_state:
+[[  4   4  16   0]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   8   2   2]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 181
+final_attempt_done: 0
+current_state:
+[[  4   4  16   0]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   8   2   2]]
+action:
+0
+next_state:
+[[  8   4  16  32]
+ [  8  16 128   4]
+ [  2  32  64   2]
+ [  0   8   2   2]]
+Next action_list: [1, 2, 0, 3]
+Clicking right
+action_number: 182
+final_attempt_done: 0
+current_state:
+[[  8   4  16  32]
+ [  8  16 128   4]
+ [  2  32  64   2]
+ [  0   8   2   2]]
+action:
+1
+next_state:
+[[  8   4  16  32]
+ [  8  16 128   4]
+ [  2  32  64   2]
+ [  2   0   8   4]]
+Next action_list: [2, 0, 1, 3]
+Clicking down
+action_number: 183
+final_attempt_done: 0
+current_state:
+[[  8   4  16  32]
+ [  8  16 128   4]
+ [  2  32  64   2]
+ [  2   0   8   4]]
+action:
+2
+next_state:
+[[  2   0  16  32]
+ [  0   4 128   4]
+ [ 16  16  64   2]
+ [  4  32   8   4]]
+Next action_list: [3, 1, 2, 0]
+Clicking left
+action_number: 184
+final_attempt_done: 0
+current_state:
+[[  2   0  16  32]
+ [  0   4 128   4]
+ [ 16  16  64   2]
+ [  4  32   8   4]]
+action:
+3
+next_state:
+[[  2  16  32   2]
+ [  4 128   4   0]
+ [ 32  64   2   0]
+ [  4  32   8   4]]
+Next action_list: [2, 1, 0, 3]
+Clicking down
+action_number: 185
+final_attempt_done: 0
+current_state:
+[[  2  16  32   2]
+ [  4 128   4   0]
+ [ 32  64   2   0]
+ [  4  32   8   4]]
+action:
+2
+next_state:
+[[  2  16  32   2]
+ [  4 128   4   0]
+ [ 32  64   2   2]
+ [  4  32   8   4]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 186
+final_attempt_done: 0
+current_state:
+[[  2  16  32   2]
+ [  4 128   4   0]
+ [ 32  64   2   2]
+ [  4  32   8   4]]
+action:
+0
+next_state:
+[[  2  16  32   4]
+ [  4 128   4   4]
+ [ 32  64   2   2]
+ [  4  32   8   0]]
+Next action_list: [0, 3, 1, 2]
+Clicking up
+action_number: 187
+final_attempt_done: 0
+current_state:
+[[  2  16  32   4]
+ [  4 128   4   4]
+ [ 32  64   2   2]
+ [  4  32   8   0]]
+action:
+0
+next_state:
+[[  2  16  32   8]
+ [  4 128   4   2]
+ [ 32  64   2   2]
+ [  4  32   8   0]]
+Next action_list: [1, 0, 3, 2]
+Clicking right
+action_number: 188
+final_attempt_done: 0
+current_state:
+[[  2  16  32   8]
+ [  4 128   4   2]
+ [ 32  64   2   2]
+ [  4  32   8   0]]
+action:
+1
+next_state:
+[[  2  16  32   8]
+ [  4 128   4   2]
+ [  0  32  64   4]
+ [  2   4  32   8]]
+Next action_list: [2, 1, 3, 0]
+Clicking down
+action_number: 189
+final_attempt_done: 0
+current_state:
+[[  2  16  32   8]
+ [  4 128   4   2]
+ [  0  32  64   4]
+ [  2   4  32   8]]
+action:
+2
+next_state:
+[[  2  16  32   8]
+ [  2 128   4   2]
+ [  4  32  64   4]
+ [  2   4  32   8]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 190
+final_attempt_done: 0
+current_state:
+[[  2  16  32   8]
+ [  2 128   4   2]
+ [  4  32  64   4]
+ [  2   4  32   8]]
+action:
+0
+next_state:
+[[  4  16  32   8]
+ [  4 128   4   2]
+ [  2  32  64   4]
+ [  2   4  32   8]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 191
+final_attempt_done: 0
+current_state:
+[[  4  16  32   8]
+ [  4 128   4   2]
+ [  2  32  64   4]
+ [  2   4  32   8]]
+action:
+0
+next_state:
+[[  8  16  32   8]
+ [  4 128   4   2]
+ [  0  32  64   4]
+ [  2   4  32   8]]
+Next action_list: [3, 1, 2, 0]
+Clicking left
+action_number: 192
+final_attempt_done: 0
+current_state:
+[[  8  16  32   8]
+ [  4 128   4   2]
+ [  0  32  64   4]
+ [  2   4  32   8]]
+action:
+3
+next_state:
+[[  8  16  32   8]
+ [  4 128   4   2]
+ [ 32  64   4   2]
+ [  2   4  32   8]]
+Next action_list: [0, 2, 3, 1]
+Clicking up
+action_number: 193
+final_attempt_done: 0
+current_state:
+[[  8  16  32   8]
+ [  4 128   4   2]
+ [ 32  64   4   2]
+ [  2   4  32   8]]
+action:
+0
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   0   2]]
+Next action_list: [0, 3, 2, 1]
+Clicking up
+action_number: 194
+final_attempt_done: 0
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   0   2]]
+action:
+0
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   0   2]]
+Clicking left
+action_number: 195
+final_attempt_done: 2
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   0   2]]
+action:
+3
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   2   2]]
+Next action_list: [3, 0, 2, 1]
+Clicking left
+action_number: 196
+final_attempt_done: 0
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   2   2]]
+action:
+3
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   4   2]]
+Next action_list: [1, 2, 3, 0]
+Clicking right
+action_number: 197
+final_attempt_done: 0
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   4   2]]
+action:
+1
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   2   8   2]]
+Next action_list: [1, 3, 0, 2]
+Clicking right
+action_number: 198
+final_attempt_done: 0
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   2   8   2]]
+action:
+1
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+Next action_list: [3, 2, 0, 1]
+Clicking left
+action_number: 199
+final_attempt_done: 0
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+3
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+Clicking down
+action_number: 200
+final_attempt_done: 2
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+2
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+Clicking up
+action_number: 201
+final_attempt_done: 3
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+0
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+Clicking right
+action_number: 202
+final_attempt_done: 4
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+1
+next_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action_number: 203
+final_attempt_done: 4
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+-1
+Transition List:
+action_number: 0
+current_state:
+[[0 2 0 0]
+ [0 0 0 2]
+ [0 0 0 0]
+ [0 0 0 0]]
+action:
+1
+Clicking right
+action_number: 1
+current_state:
+[[2 0 0 2]
+ [0 0 0 2]
+ [0 0 0 0]
+ [0 0 0 0]]
+action:
+2
+Clicking down
+action_number: 2
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 0 0 4]]
+action:
+3
+Clicking left
+action_number: 3
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 4 2 0]]
+action:
+3
+Clicking left
+action_number: 4
+Unchanged
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 4 2 0]]
+action:
+2
+Clicking down
+action_number: 5
+current_state:
+[[0 2 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [4 4 2 0]]
+action:
+3
+Clicking left
+action_number: 6
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [2 0 0 0]
+ [8 2 0 0]]
+action:
+3
+Clicking left
+action_number: 7
+Unchanged
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [2 0 0 0]
+ [8 2 0 0]]
+action:
+0
+Clicking up
+action_number: 8
+current_state:
+[[4 2 0 0]
+ [8 0 0 0]
+ [0 0 2 0]
+ [0 0 0 0]]
+action:
+2
+Clicking down
+action_number: 9
+current_state:
+[[0 0 0 0]
+ [0 2 0 0]
+ [4 0 0 0]
+ [8 2 2 0]]
+action:
+0
+Clicking up
+action_number: 10
+current_state:
+[[4 4 2 0]
+ [8 0 0 0]
+ [0 2 0 0]
+ [0 0 0 0]]
+action:
+1
+Clicking right
+action_number: 11
+current_state:
+[[0 0 8 2]
+ [0 0 0 8]
+ [0 0 2 2]
+ [0 0 0 0]]
+action:
+1
+Clicking right
+action_number: 12
+current_state:
+[[0 0 8 2]
+ [0 0 0 8]
+ [2 0 0 4]
+ [0 0 0 0]]
+action:
+3
+Clicking left
+action_number: 13
+current_state:
+[[8 2 0 0]
+ [8 0 0 0]
+ [2 4 0 0]
+ [2 0 0 0]]
+action:
+2
+Clicking down
+action_number: 14
+current_state:
+[[ 0  0  0  0]
+ [ 0  0  2  0]
+ [16  2  0  0]
+ [ 4  4  0  0]]
+action:
+0
+Clicking up
+action_number: 15
+current_state:
+[[16  2  2  0]
+ [ 4  4  0  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+action:
+1
+Clicking right
+action_number: 16
+current_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+action:
+1
+Clicking right
+action_number: 17
+Unchanged
+current_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+action:
+0
+Clicking up
+action_number: 18
+Unchanged
+current_state:
+[[ 0  2 16  4]
+ [ 0  0  8  2]
+ [ 0  0  0  0]
+ [ 0  0  0  0]]
+action:
+3
+Clicking left
+action_number: 19
+current_state:
+[[ 2 16  4  0]
+ [ 8  2  0  0]
+ [ 0  0  2  0]
+ [ 0  0  0  0]]
+action:
+0
+Clicking up
+action_number: 20
+current_state:
+[[ 2 16  4  0]
+ [ 8  2  2  0]
+ [ 0  0  0  0]
+ [ 2  0  0  0]]
+action:
+1
+Clicking right
+action_number: 21
+current_state:
+[[ 2  2 16  4]
+ [ 0  0  8  4]
+ [ 0  0  0  0]
+ [ 0  0  0  2]]
+action:
+3
+Clicking left
+action_number: 22
+current_state:
+[[ 4 16  4  0]
+ [ 8  4  0  2]
+ [ 0  0  0  0]
+ [ 2  0  0  0]]
+action:
+2
+Clicking down
+action_number: 23
+current_state:
+[[ 2  0  0  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  4  4  2]]
+action:
+2
+Clicking down
+action_number: 24
+Unchanged
+current_state:
+[[ 2  0  0  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  4  4  2]]
+action:
+3
+Clicking left
+action_number: 25
+current_state:
+[[ 2  0  2  0]
+ [ 4  0  0  0]
+ [ 8 16  0  0]
+ [ 2  8  2  0]]
+action:
+1
+Clicking right
+action_number: 26
+current_state:
+[[ 0  0  0  4]
+ [ 0  2  0  4]
+ [ 0  0  8 16]
+ [ 0  2  8  2]]
+action:
+0
+Clicking up
+action_number: 27
+current_state:
+[[ 2  4 16  8]
+ [ 0  0  0 16]
+ [ 0  0  0  2]
+ [ 0  0  0  0]]
+action:
+2
+Clicking down
+action_number: 28
+current_state:
+[[ 2  0  0  0]
+ [ 0  0  0  8]
+ [ 0  0  0 16]
+ [ 2  4 16  2]]
+action:
+0
+Clicking up
+action_number: 29
+current_state:
+[[ 4  4 16  8]
+ [ 0  0  0 16]
+ [ 0  0  0  2]
+ [ 0  0  2  0]]
+action:
+0
+Clicking up
+action_number: 30
+current_state:
+[[ 4  4 16  8]
+ [ 0  0  2 16]
+ [ 0  0  0  2]
+ [ 0  0  0  2]]
+action:
+2
+Clicking down
+action_number: 31
+current_state:
+[[ 0  0  0  0]
+ [ 0  2  0  8]
+ [ 0  0 16 16]
+ [ 4  4  2  4]]
+action:
+2
+Clicking down
+action_number: 32
+current_state:
+[[ 0  2  0  0]
+ [ 0  0  0  8]
+ [ 0  2 16 16]
+ [ 4  4  2  4]]
+action:
+2
+Clicking down
+action_number: 33
+current_state:
+[[ 2  0  0  0]
+ [ 0  0  0  8]
+ [ 0  4 16 16]
+ [ 4  4  2  4]]
+action:
+0
+Clicking up
+action_number: 34
+current_state:
+[[ 2  8 16  8]
+ [ 4  0  2 16]
+ [ 0  0  0  4]
+ [ 0  0  2  0]]
+action:
+1
+Clicking right
+action_number: 35
+current_state:
+[[ 2  8 16  8]
+ [ 0  4  2 16]
+ [ 0  0  2  4]
+ [ 0  0  0  2]]
+action:
+0
+Clicking up
+action_number: 36
+current_state:
+[[ 2  8 16  8]
+ [ 0  4  4 16]
+ [ 0  2  0  4]
+ [ 0  0  0  2]]
+action:
+0
+Clicking up
+action_number: 37
+Unchanged
+current_state:
+[[ 2  8 16  8]
+ [ 0  4  4 16]
+ [ 0  2  0  4]
+ [ 0  0  0  2]]
+action:
+2
+Clicking down
+action_number: 38
+current_state:
+[[ 0  0  2  8]
+ [ 0  8  0 16]
+ [ 0  4 16  4]
+ [ 2  2  4  2]]
+action:
+3
+Clicking left
+action_number: 39
+current_state:
+[[ 2  8  0  0]
+ [ 8 16  2  0]
+ [ 4 16  4  0]
+ [ 4  4  2  0]]
+action:
+1
+Clicking right
+action_number: 40
+current_state:
+[[ 0  0  2  8]
+ [ 0  8 16  2]
+ [ 0  4 16  4]
+ [ 2  0  8  2]]
+action:
+2
+Clicking down
+action_number: 41
+current_state:
+[[ 0  0  0  8]
+ [ 0  0  2  2]
+ [ 2  8 32  4]
+ [ 2  4  8  2]]
+action:
+0
+Clicking up
+action_number: 42
+current_state:
+[[ 4  8  2  8]
+ [ 0  4 32  2]
+ [ 0  0  8  4]
+ [ 0  2  0  2]]
+action:
+0
+Clicking up
+action_number: 43
+current_state:
+[[ 4  8  2  8]
+ [ 0  4 32  2]
+ [ 0  2  8  4]
+ [ 0  2  0  2]]
+action:
+2
+Clicking down
+action_number: 44
+current_state:
+[[ 0  0  2  8]
+ [ 0  8  2  2]
+ [ 0  4 32  4]
+ [ 4  4  8  2]]
+action:
+3
+Clicking left
+action_number: 45
+current_state:
+[[ 2  8  0  0]
+ [ 8  4  0  2]
+ [ 4 32  4  0]
+ [ 8  8  2  0]]
+action:
+2
+Clicking down
+action_number: 46
+current_state:
+[[ 2  8  2  0]
+ [ 8  4  0  0]
+ [ 4 32  4  0]
+ [ 8  8  2  2]]
+action:
+2
+Clicking down
+action_number: 47
+current_state:
+[[ 2  8  0  0]
+ [ 8  4  2  2]
+ [ 4 32  4  0]
+ [ 8  8  2  2]]
+action:
+1
+Clicking right
+action_number: 48
+current_state:
+[[ 0  0  2  8]
+ [ 0  8  4  4]
+ [ 0  4 32  4]
+ [ 2  0 16  4]]
+action:
+0
+Clicking up
+action_number: 49
+current_state:
+[[ 2  8  2  8]
+ [ 2  4  4  8]
+ [ 0  0 32  4]
+ [ 0  0 16  0]]
+action:
+2
+Clicking down
+action_number: 50
+current_state:
+[[ 0  0  2  0]
+ [ 2  0  4  0]
+ [ 0  8 32 16]
+ [ 4  4 16  4]]
+action:
+3
+Clicking left
+action_number: 51
+current_state:
+[[ 2  0  0  0]
+ [ 2  4  0  0]
+ [ 8 32 16  0]
+ [ 8 16  4  2]]
+action:
+1
+Clicking right
+action_number: 52
+current_state:
+[[ 2  0  0  2]
+ [ 0  0  2  4]
+ [ 0  8 32 16]
+ [ 8 16  4  2]]
+action:
+0
+Clicking up
+action_number: 53
+current_state:
+[[ 2  8  2  2]
+ [ 8 16 32  4]
+ [ 2  0  4 16]
+ [ 0  0  0  2]]
+action:
+2
+Clicking down
+action_number: 54
+current_state:
+[[ 0  2  0  2]
+ [ 2  0  2  4]
+ [ 8  8 32 16]
+ [ 2 16  4  2]]
+action:
+0
+Clicking up
+action_number: 55
+current_state:
+[[ 2  2  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  0  2  2]]
+action:
+2
+Clicking down
+action_number: 56
+current_state:
+[[ 0  2  2  2]
+ [ 2  2 32  4]
+ [ 8  8  4 16]
+ [ 2 16  2  2]]
+action:
+0
+Clicking up
+action_number: 57
+current_state:
+[[ 2  4  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  2  2  2]]
+action:
+0
+Clicking up
+action_number: 58
+Unchanged
+current_state:
+[[ 2  4  2  2]
+ [ 8  8 32  4]
+ [ 2 16  4 16]
+ [ 0  2  2  2]]
+action:
+1
+Clicking right
+action_number: 59
+current_state:
+[[ 0  2  4  4]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 0  0  2  4]]
+action:
+1
+Clicking right
+action_number: 60
+current_state:
+[[ 0  0  2  8]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 2  0  2  4]]
+action:
+3
+Clicking left
+action_number: 61
+current_state:
+[[ 2  8  0  0]
+ [ 2 16 32  4]
+ [ 2 16  4 16]
+ [ 4  4  2  0]]
+action:
+0
+Clicking up
+action_number: 62
+current_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  0]
+ [ 0  0  0  2]]
+action:
+0
+Clicking up
+action_number: 63
+current_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  2]
+ [ 2  0  0  0]]
+action:
+0
+Clicking up
+action_number: 64
+Unchanged
+current_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 4  4  2  2]
+ [ 2  0  0  0]]
+action:
+3
+Clicking left
+action_number: 65
+current_state:
+[[ 4  8 32  4]
+ [ 2 32  4 16]
+ [ 8  4  0  0]
+ [ 2  2  0  0]]
+action:
+2
+Clicking down
+action_number: 66
+current_state:
+[[ 4  8  0  2]
+ [ 2 32  0  0]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+action:
+2
+Clicking down
+action_number: 67
+current_state:
+[[ 4  8  0  0]
+ [ 2 32  2  2]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+action:
+2
+Clicking down
+action_number: 68
+Unchanged
+current_state:
+[[ 4  8  0  0]
+ [ 2 32  2  2]
+ [ 8  4 32  4]
+ [ 2  2  4 16]]
+action:
+0
+Clicking up
+action_number: 69
+current_state:
+[[ 4  8  2  2]
+ [ 2 32 32  4]
+ [ 8  4  4 16]
+ [ 2  2  2  0]]
+action:
+0
+Clicking up
+action_number: 70
+Unchanged
+current_state:
+[[ 4  8  2  2]
+ [ 2 32 32  4]
+ [ 8  4  4 16]
+ [ 2  2  2  0]]
+action:
+1
+Clicking right
+action_number: 71
+current_state:
+[[ 0  4  8  4]
+ [ 0  2 64  4]
+ [ 2  8  8 16]
+ [ 0  0  2  4]]
+action:
+2
+Clicking down
+action_number: 72
+current_state:
+[[ 2  0  8  0]
+ [ 0  4 64  8]
+ [ 0  2  8 16]
+ [ 2  8  2  4]]
+action:
+2
+Clicking down
+action_number: 73
+current_state:
+[[ 0  0  8  0]
+ [ 2  4 64  8]
+ [ 0  2  8 16]
+ [ 4  8  2  4]]
+action:
+3
+Clicking left
+action_number: 74
+current_state:
+[[ 8  0  2  0]
+ [ 2  4 64  8]
+ [ 2  8 16  0]
+ [ 4  8  2  4]]
+action:
+3
+Clicking left
+action_number: 75
+current_state:
+[[ 8  2  0  0]
+ [ 2  4 64  8]
+ [ 2  8 16  2]
+ [ 4  8  2  4]]
+action:
+0
+Clicking up
+action_number: 76
+current_state:
+[[ 8  2 64  8]
+ [ 4  4 16  2]
+ [ 4 16  2  4]
+ [ 2  0  0  0]]
+action:
+1
+Clicking right
+action_number: 77
+current_state:
+[[ 8  2 64  8]
+ [ 0  8 16  2]
+ [ 4 16  2  4]
+ [ 0  2  0  2]]
+action:
+3
+Clicking left
+action_number: 78
+current_state:
+[[ 8  2 64  8]
+ [ 8 16  2  2]
+ [ 4 16  2  4]
+ [ 4  0  0  0]]
+action:
+2
+Clicking down
+action_number: 79
+current_state:
+[[ 0  2  0  0]
+ [ 0  0  0  8]
+ [16  2 64  2]
+ [ 8 32  4  4]]
+action:
+1
+Clicking right
+action_number: 80
+current_state:
+[[ 0  2  0  2]
+ [ 0  0  0  8]
+ [16  2 64  2]
+ [ 0  8 32  8]]
+action:
+2
+Clicking down
+action_number: 81
+current_state:
+[[ 0  0  0  2]
+ [ 2  0  0  8]
+ [ 0  4 64  2]
+ [16  8 32  8]]
+action:
+0
+Clicking up
+action_number: 82
+current_state:
+[[ 2  4 64  2]
+ [16  8 32  8]
+ [ 2  0  0  2]
+ [ 0  0  0  8]]
+action:
+1
+Clicking right
+action_number: 83
+current_state:
+[[ 2  4 64  2]
+ [16  8 32  8]
+ [ 0  0  0  4]
+ [ 0  0  2  8]]
+action:
+2
+Clicking down
+action_number: 84
+current_state:
+[[ 0  0  2  2]
+ [ 0  0 64  8]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+3
+Clicking left
+action_number: 85
+current_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+3
+Clicking left
+action_number: 86
+Unchanged
+current_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+2
+Clicking down
+action_number: 87
+Unchanged
+current_state:
+[[ 4  0  0  0]
+ [64  8  2  0]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+1
+Clicking right
+action_number: 88
+current_state:
+[[ 0  0  0  4]
+ [ 2 64  8  2]
+ [ 2  4 32  4]
+ [16  8  2  8]]
+action:
+2
+Clicking down
+action_number: 89
+current_state:
+[[ 0  0  0  4]
+ [ 2 64  8  2]
+ [ 4  4 32  4]
+ [16  8  2  8]]
+action:
+3
+Clicking left
+action_number: 90
+current_state:
+[[ 4  2  0  0]
+ [ 2 64  8  2]
+ [ 8 32  4  0]
+ [16  8  2  8]]
+action:
+3
+Clicking left
+action_number: 91
+Unchanged
+current_state:
+[[ 4  2  0  0]
+ [ 2 64  8  2]
+ [ 8 32  4  0]
+ [16  8  2  8]]
+action:
+1
+Clicking right
+action_number: 92
+current_state:
+[[ 2  0  4  2]
+ [ 2 64  8  2]
+ [ 0  8 32  4]
+ [16  8  2  8]]
+action:
+1
+Clicking right
+action_number: 93
+current_state:
+[[ 0  2  4  2]
+ [ 2 64  8  2]
+ [ 2  8 32  4]
+ [16  8  2  8]]
+action:
+1
+Clicking right
+action_number: 94
+Unchanged
+current_state:
+[[ 0  2  4  2]
+ [ 2 64  8  2]
+ [ 2  8 32  4]
+ [16  8  2  8]]
+action:
+0
+Clicking up
+action_number: 95
+current_state:
+[[ 4  2  4  4]
+ [16 64  8  4]
+ [ 2 16 32  8]
+ [ 0  0  2  0]]
+action:
+0
+Clicking up
+action_number: 96
+current_state:
+[[ 4  2  4  8]
+ [16 64  8  8]
+ [ 2 16 32  0]
+ [ 0  0  2  2]]
+action:
+1
+Clicking right
+action_number: 97
+current_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  2 16 32]
+ [ 0  2  0  4]]
+action:
+0
+Clicking up
+action_number: 98
+current_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  4 16 32]
+ [ 0  2  0  4]]
+action:
+3
+Clicking left
+action_number: 99
+current_state:
+[[ 4  2  4  8]
+ [16 64 16  0]
+ [ 4 16 32  0]
+ [ 2  4  0  2]]
+action:
+1
+Clicking right
+action_number: 100
+current_state:
+[[ 4  2  4  8]
+ [ 0 16 64 16]
+ [ 0  4 16 32]
+ [ 2  2  4  2]]
+action:
+2
+Clicking down
+action_number: 101
+current_state:
+[[ 2  2  4  8]
+ [ 0 16 64 16]
+ [ 4  4 16 32]
+ [ 2  2  4  2]]
+action:
+0
+Clicking up
+action_number: 102
+current_state:
+[[ 2  2  4  8]
+ [ 4 16 64 16]
+ [ 2  4 16 32]
+ [ 2  2  4  2]]
+action:
+3
+Clicking left
+action_number: 103
+current_state:
+[[ 4  4  8  4]
+ [ 4 16 64 16]
+ [ 2  4 16 32]
+ [ 4  4  2  0]]
+action:
+2
+Clicking down
+action_number: 104
+current_state:
+[[ 2  0  8  0]
+ [ 8  4 64  4]
+ [ 2 16 16 16]
+ [ 4  8  2 32]]
+action:
+0
+Clicking up
+action_number: 105
+current_state:
+[[ 2  4  8  4]
+ [ 8 16 64 16]
+ [ 2  8 16 32]
+ [ 4  2  2  0]]
+action:
+1
+Clicking right
+action_number: 106
+current_state:
+[[ 2  4  8  4]
+ [ 8 16 64 16]
+ [ 2  8 16 32]
+ [ 0  2  4  4]]
+action:
+2
+Clicking down
+action_number: 107
+current_state:
+[[ 4  4  8  4]
+ [ 2 16 64 16]
+ [ 8  8 16 32]
+ [ 2  2  4  4]]
+action:
+2
+Clicking down
+action_number: 108
+Unchanged
+current_state:
+[[ 4  4  8  4]
+ [ 2 16 64 16]
+ [ 8  8 16 32]
+ [ 2  2  4  4]]
+action:
+1
+Clicking right
+action_number: 109
+current_state:
+[[ 0  8  8  4]
+ [ 2 16 64 16]
+ [ 2 16 16 32]
+ [ 0  0  4  8]]
+action:
+2
+Clicking down
+action_number: 110
+current_state:
+[[ 0  2  8  4]
+ [ 0  0 64 16]
+ [ 0  8 16 32]
+ [ 4 32  4  8]]
+action:
+3
+Clicking left
+action_number: 111
+current_state:
+[[ 2  8  4  0]
+ [64 16  0  0]
+ [ 8 16 32  2]
+ [ 4 32  4  8]]
+action:
+2
+Clicking down
+action_number: 112
+current_state:
+[[ 2  0  0  0]
+ [64  8  4  2]
+ [ 8 32 32  2]
+ [ 4 32  4  8]]
+action:
+1
+Clicking right
+action_number: 113
+current_state:
+[[ 0  0  2  2]
+ [64  8  4  2]
+ [ 0  8 64  2]
+ [ 4 32  4  8]]
+action:
+1
+Clicking right
+action_number: 114
+current_state:
+[[ 2  0  0  4]
+ [64  8  4  2]
+ [ 0  8 64  2]
+ [ 4 32  4  8]]
+action:
+0
+Clicking up
+action_number: 115
+current_state:
+[[ 2 16  4  4]
+ [64 32 64  4]
+ [ 4  0  4  8]
+ [ 0  2  0  0]]
+action:
+3
+Clicking left
+action_number: 116
+current_state:
+[[ 2 16  8  0]
+ [64 32 64  4]
+ [ 8  8  0  2]
+ [ 2  0  0  0]]
+action:
+2
+Clicking down
+action_number: 117
+current_state:
+[[ 2  0  0  0]
+ [64 16  0  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+action:
+1
+Clicking right
+action_number: 118
+current_state:
+[[ 0  0  2  2]
+ [ 0 64 16  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+action:
+1
+Clicking right
+action_number: 119
+current_state:
+[[ 0  0  0  4]
+ [ 2 64 16  2]
+ [ 8 32  8  4]
+ [ 2  8 64  2]]
+action:
+0
+Clicking up
+action_number: 120
+current_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  2]]
+action:
+0
+Clicking up
+action_number: 121
+Unchanged
+current_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  2]]
+action:
+1
+Clicking right
+action_number: 122
+current_state:
+[[ 2 64 16  4]
+ [ 8 32  8  2]
+ [ 2  8 64  4]
+ [ 0  2  0  4]]
+action:
+2
+Clicking down
+action_number: 123
+current_state:
+[[ 0 64  2  0]
+ [ 2 32 16  4]
+ [ 8  8  8  2]
+ [ 2  2 64  8]]
+action:
+2
+Clicking down
+action_number: 124
+Unchanged
+current_state:
+[[ 0 64  2  0]
+ [ 2 32 16  4]
+ [ 8  8  8  2]
+ [ 2  2 64  8]]
+action:
+1
+Clicking right
+action_number: 125
+current_state:
+[[ 0  0 64  2]
+ [ 2 32 16  4]
+ [ 0  8 16  2]
+ [ 2  4 64  8]]
+action:
+2
+Clicking down
+action_number: 126
+current_state:
+[[ 2  0  0  2]
+ [ 0 32 64  4]
+ [ 0  8 32  2]
+ [ 4  4 64  8]]
+action:
+0
+Clicking up
+action_number: 127
+current_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 0  4 64  2]
+ [ 2  0  0  8]]
+action:
+3
+Clicking left
+action_number: 128
+current_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 4 64  2  2]
+ [ 2  8  0  0]]
+action:
+1
+Clicking right
+action_number: 129
+current_state:
+[[ 2 32 64  2]
+ [ 4  8 32  4]
+ [ 2  4 64  4]
+ [ 0  0  2  8]]
+action:
+0
+Clicking up
+action_number: 130
+current_state:
+[[ 2 32 64  2]
+ [ 4  8 32  8]
+ [ 2  4 64  8]
+ [ 0  0  2  2]]
+action:
+2
+Clicking down
+action_number: 131
+current_state:
+[[ 0  2 64  0]
+ [ 2 32 32  2]
+ [ 4  8 64 16]
+ [ 2  4  2  2]]
+action:
+3
+Clicking left
+action_number: 132
+current_state:
+[[ 2 64  0  2]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  4  4  0]]
+action:
+3
+Clicking left
+action_number: 133
+current_state:
+[[ 2 64  2  0]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  8  0  2]]
+action:
+3
+Clicking left
+action_number: 134
+current_state:
+[[ 2 64  2  0]
+ [ 2 64  2  0]
+ [ 4  8 64 16]
+ [ 2  8  2  2]]
+action:
+0
+Clicking up
+action_number: 135
+current_state:
+[[  4 128   4  16]
+ [  4  16  64   2]
+ [  2   0   2   0]
+ [  0   0   2   0]]
+action:
+0
+Clicking up
+action_number: 136
+current_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  0   0   4   0]
+ [  0   2   0   0]]
+action:
+3
+Clicking left
+action_number: 137
+current_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  4   0   2   0]
+ [  2   0   0   0]]
+action:
+3
+Clicking left
+action_number: 138
+current_state:
+[[  8 128   4  16]
+ [  2  16  64   2]
+ [  4   2   2   0]
+ [  2   0   0   0]]
+action:
+2
+Clicking down
+action_number: 139
+current_state:
+[[  8   0   2   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  2   2   2   2]]
+action:
+3
+Clicking left
+action_number: 140
+current_state:
+[[  8   2   2   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  4   4   0   0]]
+action:
+1
+Clicking right
+action_number: 141
+current_state:
+[[  0   2   8   4]
+ [  0   2 128   4]
+ [  4  16  64  16]
+ [  0   0   0   8]]
+action:
+3
+Clicking left
+action_number: 142
+current_state:
+[[  2   8   4   0]
+ [  2 128   4   0]
+ [  4  16  64  16]
+ [  8   0   2   0]]
+action:
+0
+Clicking up
+action_number: 143
+current_state:
+[[  4   8   8  16]
+ [  4 128  64   0]
+ [  8  16   2   0]
+ [  0   2   0   0]]
+action:
+2
+Clicking down
+action_number: 144
+current_state:
+[[  2   8   0   0]
+ [  0 128   8   0]
+ [  8  16  64   0]
+ [  8   2   2  16]]
+action:
+0
+Clicking up
+action_number: 145
+current_state:
+[[  2   8   8  16]
+ [ 16 128  64   0]
+ [  0  16   2   0]
+ [  2   2   0   0]]
+action:
+2
+Clicking down
+action_number: 146
+current_state:
+[[  2   8   0   0]
+ [  2 128   8   0]
+ [ 16  16  64   0]
+ [  2   2   2  16]]
+action:
+0
+Clicking up
+action_number: 147
+current_state:
+[[  4   8   8  16]
+ [ 16 128  64   0]
+ [  2  16   2   0]
+ [  0   2   2   0]]
+action:
+2
+Clicking down
+action_number: 148
+current_state:
+[[  0   8   0   0]
+ [  4 128   8   0]
+ [ 16  16  64   2]
+ [  2   2   4  16]]
+action:
+0
+Clicking up
+action_number: 149
+current_state:
+[[  4   8   8   2]
+ [ 16 128  64  16]
+ [  2  16   4   0]
+ [  2   2   0   0]]
+action:
+0
+Clicking up
+action_number: 150
+current_state:
+[[  4   8   8   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   2   0   0]]
+action:
+1
+Clicking right
+action_number: 151
+current_state:
+[[  0   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  2   0   0   4]]
+action:
+1
+Clicking right
+action_number: 152
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  0   0   2   4]]
+action:
+3
+Clicking left
+action_number: 153
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   4   2   0]]
+action:
+3
+Clicking left
+action_number: 154
+Unchanged
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4  16   4   0]
+ [  2   4   2   0]]
+action:
+1
+Clicking right
+action_number: 155
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  0   4  16   4]
+ [  2   2   4   2]]
+action:
+0
+Clicking up
+action_number: 156
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  2   2   4   2]]
+action:
+3
+Clicking left
+action_number: 157
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  4   4   2   2]]
+action:
+3
+Clicking left
+action_number: 158
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  8   4   0   2]]
+action:
+1
+Clicking right
+action_number: 159
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  2   4  16   4]
+ [  2   8   4   2]]
+action:
+0
+Clicking up
+action_number: 160
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  4   4  16   4]
+ [  2   8   4   2]]
+action:
+3
+Clicking left
+action_number: 161
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+action:
+3
+Clicking left
+action_number: 162
+Unchanged
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+action:
+1
+Clicking right
+action_number: 163
+Unchanged
+current_state:
+[[  2   4  16   2]
+ [ 16 128  64  16]
+ [  8  16   4   2]
+ [  2   8   4   2]]
+action:
+2
+Clicking down
+action_number: 164
+current_state:
+[[  2   4   0   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2   8   8   4]]
+action:
+3
+Clicking left
+action_number: 165
+current_state:
+[[  2   4   2   0]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+1
+Clicking right
+action_number: 166
+current_state:
+[[  2   2   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+1
+Clicking right
+action_number: 167
+current_state:
+[[  2   4   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+3
+Clicking left
+action_number: 168
+current_state:
+[[  2   8   2   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+3
+Clicking left
+action_number: 169
+current_state:
+[[  2   8   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+1
+Clicking right
+action_number: 170
+Unchanged
+current_state:
+[[  2   8   4   2]
+ [ 16 128  16   2]
+ [  8  16  64  16]
+ [  2  16   4   2]]
+action:
+0
+Clicking up
+action_number: 171
+current_state:
+[[  2   8   4   4]
+ [ 16 128  16  16]
+ [  8  32  64   2]
+ [  2   0   4   2]]
+action:
+0
+Clicking up
+action_number: 172
+current_state:
+[[  2   8   4   4]
+ [ 16 128  16  16]
+ [  8  32  64   4]
+ [  2   0   4   2]]
+action:
+1
+Clicking right
+action_number: 173
+current_state:
+[[  2   2   8   8]
+ [  0  16 128  32]
+ [  8  32  64   4]
+ [  0   2   4   2]]
+action:
+2
+Clicking down
+action_number: 174
+current_state:
+[[  0   2   8   8]
+ [  2  16 128  32]
+ [  2  32  64   4]
+ [  8   2   4   2]]
+action:
+2
+Clicking down
+action_number: 175
+current_state:
+[[  0   2   8   8]
+ [  2  16 128  32]
+ [  4  32  64   4]
+ [  8   2   4   2]]
+action:
+0
+Clicking up
+action_number: 176
+current_state:
+[[  2   2   8   8]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   2   4   2]]
+action:
+1
+Clicking right
+action_number: 177
+current_state:
+[[  0   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  0   4   4   2]]
+action:
+2
+Clicking down
+action_number: 178
+current_state:
+[[  0   2   4  16]
+ [  2  16 128  32]
+ [  4  32  64   4]
+ [  8   4   4   2]]
+action:
+0
+Clicking up
+action_number: 179
+current_state:
+[[  2   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   4   4   2]]
+action:
+0
+Clicking up
+action_number: 180
+Unchanged
+current_state:
+[[  2   2   4  16]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   4   4   2]]
+action:
+3
+Clicking left
+action_number: 181
+current_state:
+[[  4   4  16   0]
+ [  4  16 128  32]
+ [  8  32  64   4]
+ [  2   8   2   2]]
+action:
+0
+Clicking up
+action_number: 182
+current_state:
+[[  8   4  16  32]
+ [  8  16 128   4]
+ [  2  32  64   2]
+ [  0   8   2   2]]
+action:
+1
+Clicking right
+action_number: 183
+current_state:
+[[  8   4  16  32]
+ [  8  16 128   4]
+ [  2  32  64   2]
+ [  2   0   8   4]]
+action:
+2
+Clicking down
+action_number: 184
+current_state:
+[[  2   0  16  32]
+ [  0   4 128   4]
+ [ 16  16  64   2]
+ [  4  32   8   4]]
+action:
+3
+Clicking left
+action_number: 185
+current_state:
+[[  2  16  32   2]
+ [  4 128   4   0]
+ [ 32  64   2   0]
+ [  4  32   8   4]]
+action:
+2
+Clicking down
+action_number: 186
+current_state:
+[[  2  16  32   2]
+ [  4 128   4   0]
+ [ 32  64   2   2]
+ [  4  32   8   4]]
+action:
+0
+Clicking up
+action_number: 187
+current_state:
+[[  2  16  32   4]
+ [  4 128   4   4]
+ [ 32  64   2   2]
+ [  4  32   8   0]]
+action:
+0
+Clicking up
+action_number: 188
+current_state:
+[[  2  16  32   8]
+ [  4 128   4   2]
+ [ 32  64   2   2]
+ [  4  32   8   0]]
+action:
+1
+Clicking right
+action_number: 189
+current_state:
+[[  2  16  32   8]
+ [  4 128   4   2]
+ [  0  32  64   4]
+ [  2   4  32   8]]
+action:
+2
+Clicking down
+action_number: 190
+current_state:
+[[  2  16  32   8]
+ [  2 128   4   2]
+ [  4  32  64   4]
+ [  2   4  32   8]]
+action:
+0
+Clicking up
+action_number: 191
+current_state:
+[[  4  16  32   8]
+ [  4 128   4   2]
+ [  2  32  64   4]
+ [  2   4  32   8]]
+action:
+0
+Clicking up
+action_number: 192
+current_state:
+[[  8  16  32   8]
+ [  4 128   4   2]
+ [  0  32  64   4]
+ [  2   4  32   8]]
+action:
+3
+Clicking left
+action_number: 193
+current_state:
+[[  8  16  32   8]
+ [  4 128   4   2]
+ [ 32  64   4   2]
+ [  2   4  32   8]]
+action:
+0
+Clicking up
+action_number: 194
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   0   2]]
+action:
+0
+Clicking up
+action_number: 195
+Unchanged
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   0   2]]
+action:
+3
+Clicking left
+action_number: 196
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   2   2]]
+action:
+3
+Clicking left
+action_number: 197
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   4   2]]
+action:
+1
+Clicking right
+action_number: 198
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   2   8   2]]
+action:
+1
+Clicking right
+action_number: 199
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+3
+Clicking left
+action_number: 200
+Unchanged
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+2
+Clicking down
+action_number: 201
+Unchanged
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+0
+Clicking up
+action_number: 202
+Unchanged
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+1
+Clicking right
+action_number: 203
+Unchanged
+current_state:
+[[  8  16  32   8]
+ [  4 128   8   4]
+ [ 32  64  32   8]
+ [  2   4   8   2]]
+action:
+-1
+Game Over

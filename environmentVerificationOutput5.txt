@@ -1,0 +1,1333 @@
+Transition List:
+action_number: 0
+current_state:
+[[0 0 0 0]
+ [0 2 2 0]
+ [0 0 0 0]
+ [0 0 0 0]]
+action:
+1
+Clicking right
+action_number: 1
+current_state:
+[[0 0 0 0]
+ [0 2 0 4]
+ [0 0 0 0]
+ [0 0 0 0]]
+action:
+2
+Clicking down
+action_number: 2
+current_state:
+[[0 0 2 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [0 2 0 4]]
+action:
+3
+Clicking left
+action_number: 3
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 4 2 0]]
+action:
+3
+Clicking left
+action_number: 4
+current_state:
+[[2 0 0 0]
+ [0 0 0 0]
+ [0 0 0 0]
+ [2 4 2 0]]
+action:
+2
+Clicking down
+action_number: 5
+current_state:
+[[0 0 0 0]
+ [0 0 0 0]
+ [0 0 0 2]
+ [4 4 2 0]]
+action:
+3
+Clicking left
+action_number: 6
+current_state:
+[[0 0 0 0]
+ [0 0 0 0]
+ [2 2 0 0]
+ [8 2 0 0]]
+action:
+0
+Clicking up
+action_number: 7
+current_state:
+[[2 4 0 0]
+ [8 0 0 2]
+ [0 0 0 0]
+ [0 0 0 0]]
+action:
+2
+Clicking down
+action_number: 8
+current_state:
+[[0 0 0 0]
+ [2 0 0 0]
+ [2 0 0 0]
+ [8 4 0 2]]
+action:
+0
+Clicking up
+action_number: 9
+current_state:
+[[4 4 0 2]
+ [8 0 0 0]
+ [2 0 0 0]
+ [0 0 0 0]]
+action:
+3
+Clicking left
+action_number: 10
+current_state:
+[[8 2 0 0]
+ [8 0 0 2]
+ [2 0 0 0]
+ [0 0 0 0]]
+action:
+3
+Clicking left
+action_number: 11
+current_state:
+[[8 2 0 0]
+ [8 2 2 0]
+ [2 0 0 0]
+ [0 0 0 0]]
+action:
+1
+Clicking right
+action_number: 12
+current_state:
+[[0 0 8 2]
+ [0 0 8 4]
+ [0 0 2 2]
+ [0 0 0 0]]
+action:
+1
+Clicking right
+action_number: 13
+current_state:
+[[0 0 8 2]
+ [0 0 8 4]
+ [0 2 0 4]
+ [0 0 0 0]]
+action:
+1
+Clicking right
+action_number: 14
+current_state:
+[[0 0 8 2]
+ [2 0 8 4]
+ [0 0 2 4]
+ [0 0 0 0]]
+action:
+0
+Clicking up
+action_number: 15
+current_state:
+[[ 2  0 16  2]
+ [ 0  0  2  8]
+ [ 0  0  0  0]
+ [ 0  0  2  0]]
+action:
+0
+Clicking up
+action_number: 16
+current_state:
+[[ 2  0 16  2]
+ [ 0  0  4  8]
+ [ 0  0  0  0]
+ [ 0  2  0  0]]
+action:
+1
+Clicking right
+action_number: 17
+current_state:
+[[ 0  2 16  2]
+ [ 0  0  4  8]
+ [ 0  0  0  0]
+ [ 2  0  0  2]]
+action:
+2
+Clicking down
+action_number: 18
+current_state:
+[[ 0  2  0  0]
+ [ 0  0  0  2]
+ [ 0  0 16  8]
+ [ 2  2  4  2]]
+action:
+2
+Clicking down
+action_number: 19
+current_state:
+[[ 0  0  0  2]
+ [ 0  0  0  2]
+ [ 0  0 16  8]
+ [ 2  4  4  2]]
+action:
+2
+Clicking down
+action_number: 20
+current_state:
+[[ 0  0  0  2]
+ [ 0  0  0  4]
+ [ 0  0 16  8]
+ [ 2  4  4  2]]
+action:
+3
+Clicking left
+action_number: 21
+current_state:
+[[ 2  2  0  0]
+ [ 4  0  0  0]
+ [16  8  0  0]
+ [ 2  8  2  0]]
+action:
+1
+Clicking right
+action_number: 22
+current_state:
+[[ 0  0  0  4]
+ [ 0  0  0  4]
+ [ 2  0 16  8]
+ [ 0  2  8  2]]
+action:
+2
+Clicking down
+action_number: 23
+current_state:
+[[ 0  0  2  0]
+ [ 0  0  0  8]
+ [ 0  0 16  8]
+ [ 2  2  8  2]]
+action:
+1
+Clicking right
+action_number: 24
+current_state:
+[[ 0  0  0  2]
+ [ 0  0  0  8]
+ [ 2  0 16  8]
+ [ 0  4  8  2]]
+action:
+2
+Clicking down
+action_number: 25
+current_state:
+[[ 0  0  0  0]
+ [ 0  0  2  2]
+ [ 0  0 16 16]
+ [ 2  4  8  2]]
+action:
+1
+Clicking right
+action_number: 26
+current_state:
+[[ 0  0  0  0]
+ [ 0  0  2  4]
+ [ 0  0  0 32]
+ [ 2  4  8  2]]
+action:
+2
+Clicking down
+action_number: 27
+current_state:
+[[ 2  0  0  0]
+ [ 0  0  0  4]
+ [ 0  0  2 32]
+ [ 2  4  8  2]]
+action:
+3
+Clicking left
+action_number: 28
+current_state:
+[[ 2  0  0  2]
+ [ 4  0  0  0]
+ [ 2 32  0  0]
+ [ 2  4  8  2]]
+action:
+0
+Clicking up
+action_number: 29
+current_state:
+[[ 2 32  8  4]
+ [ 4  4  0  0]
+ [ 4  0  2  0]
+ [ 0  0  0  0]]
+action:
+1
+Clicking right
+action_number: 30
+current_state:
+[[ 2 32  8  4]
+ [ 0  0  0  8]
+ [ 0  0  4  2]
+ [ 0  2  0  0]]
+action:
+3
+Clicking left
+action_number: 31
+current_state:
+[[ 2 32  8  4]
+ [ 8  0  0  0]
+ [ 4  2  2  0]
+ [ 2  0  0  0]]
+action:
+3
+Clicking left
+action_number: 32
+current_state:
+[[ 2 32  8  4]
+ [ 8  0  0  0]
+ [ 4  4  2  0]
+ [ 2  0  0  0]]
+action:
+3
+Clicking left
+action_number: 33
+current_state:
+[[ 2 32  8  4]
+ [ 8  0  0  2]
+ [ 8  2  0  0]
+ [ 2  0  0  0]]
+action:
+1
+Clicking right
+action_number: 34
+current_state:
+[[ 2 32  8  4]
+ [ 2  0  8  2]
+ [ 0  0  8  2]
+ [ 0  0  0  2]]
+action:
+1
+Clicking right
+action_number: 35
+current_state:
+[[ 2 32  8  4]
+ [ 0  2  8  2]
+ [ 0  2  8  2]
+ [ 0  0  0  2]]
+action:
+0
+Clicking up
+action_number: 36
+current_state:
+[[ 2 32 16  4]
+ [ 0  4  8  4]
+ [ 0  2  0  2]
+ [ 0  0  0  0]]
+action:
+2
+Clicking down
+action_number: 37
+current_state:
+[[ 2  0  0  0]
+ [ 0 32  0  0]
+ [ 0  4 16  8]
+ [ 2  2  8  2]]
+action:
+0
+Clicking up
+action_number: 38
+current_state:
+[[ 4 32 16  8]
+ [ 0  4  8  2]
+ [ 0  2  2  0]
+ [ 0  0  0  0]]
+action:
+3
+Clicking left
+action_number: 39
+current_state:
+[[ 4 32 16  8]
+ [ 4  8  2  0]
+ [ 4  2  0  0]
+ [ 0  0  0  0]]
+action:
+1
+Clicking right
+action_number: 40
+current_state:
+[[ 4 32 16  8]
+ [ 0  4  8  2]
+ [ 0  0  4  2]
+ [ 0  0  2  0]]
+action:
+0
+Clicking up
+action_number: 41
+current_state:
+[[ 4 32 16  8]
+ [ 0  4  8  4]
+ [ 0  0  4  2]
+ [ 0  0  2  0]]
+action:
+2
+Clicking down
+action_number: 42
+current_state:
+[[ 0  0 16  0]
+ [ 0  2  8  8]
+ [ 0 32  4  4]
+ [ 4  4  2  2]]
+action:
+1
+Clicking right
+action_number: 43
+current_state:
+[[ 0  2  0 16]
+ [ 0  0  2 16]
+ [ 0  0 32  8]
+ [ 0  0  8  4]]
+action:
+3
+Clicking left
+action_number: 44
+current_state:
+[[ 2 16  0  0]
+ [ 2 16  0  0]
+ [32  8  2  0]
+ [ 8  4  0  0]]
+action:
+1
+Clicking right
+action_number: 45
+current_state:
+[[ 0  0  2 16]
+ [ 0  2  2 16]
+ [ 0 32  8  2]
+ [ 0  0  8  4]]
+action:
+3
+Clicking left
+action_number: 46
+current_state:
+[[ 2 16  0  0]
+ [ 4 16  0  0]
+ [32  8  2  0]
+ [ 8  4  0  2]]
+action:
+3
+Clicking left
+action_number: 47
+current_state:
+[[ 2 16  0  0]
+ [ 4 16  0  0]
+ [32  8  2  0]
+ [ 8  4  2  2]]
+action:
+2
+Clicking down
+action_number: 48
+current_state:
+[[ 2  0  0  0]
+ [ 4 32  0  2]
+ [32  8  0  0]
+ [ 8  4  4  2]]
+action:
+1
+Clicking right
+action_number: 49
+current_state:
+[[ 0  2  0  2]
+ [ 0  4 32  2]
+ [ 0  0 32  8]
+ [ 0  8  8  2]]
+action:
+2
+Clicking down
+action_number: 50
+current_state:
+[[ 0  0  0  0]
+ [ 2  2  0  4]
+ [ 0  4 64  8]
+ [ 0  8  8  2]]
+action:
+1
+Clicking right
+action_number: 51
+current_state:
+[[ 0  0  0  0]
+ [ 0  0  4  4]
+ [ 0  4 64  8]
+ [ 2  0 16  2]]
+action:
+3
+Clicking left
+action_number: 52
+current_state:
+[[ 0  0  0  0]
+ [ 8  0  0  0]
+ [ 4 64  8  2]
+ [ 2 16  2  0]]
+action:
+0
+Clicking up
+action_number: 53
+current_state:
+[[ 8 64  8  2]
+ [ 4 16  2  2]
+ [ 2  0  0  0]
+ [ 0  0  0  0]]
+action:
+0
+Clicking up
+action_number: 54
+current_state:
+[[ 8 64  8  4]
+ [ 4 16  2  2]
+ [ 2  0  0  0]
+ [ 0  0  0  0]]
+action:
+2
+Clicking down
+action_number: 55
+current_state:
+[[ 0  0  2  0]
+ [ 8  0  0  0]
+ [ 4 64  8  4]
+ [ 2 16  2  2]]
+action:
+0
+Clicking up
+action_number: 56
+current_state:
+[[ 8 64  2  4]
+ [ 4 16  8  2]
+ [ 2  2  2  0]
+ [ 0  0  0  0]]
+action:
+3
+Clicking left
+action_number: 57
+current_state:
+[[ 8 64  2  4]
+ [ 4 16  8  2]
+ [ 4  2  0  0]
+ [ 2  0  0  0]]
+action:
+1
+Clicking right
+action_number: 58
+current_state:
+[[ 8 64  2  4]
+ [ 4 16  8  2]
+ [ 2  0  4  2]
+ [ 0  0  0  2]]
+action:
+1
+Clicking right
+action_number: 59
+current_state:
+[[ 8 64  2  4]
+ [ 4 16  8  2]
+ [ 2  2  4  2]
+ [ 0  0  0  2]]
+action:
+3
+Clicking left
+action_number: 60
+current_state:
+[[ 8 64  2  4]
+ [ 4 16  8  2]
+ [ 4  4  2  0]
+ [ 2  0  2  0]]
+action:
+1
+Clicking right
+action_number: 61
+current_state:
+[[ 8 64  2  4]
+ [ 4 16  8  2]
+ [ 2  0  8  2]
+ [ 0  0  0  4]]
+action:
+0
+Clicking up
+action_number: 62
+current_state:
+[[ 8 64  2  4]
+ [ 4 16 16  4]
+ [ 2  0  0  4]
+ [ 0  2  0  0]]
+action:
+0
+Clicking up
+action_number: 63
+current_state:
+[[ 8 64  2  8]
+ [ 4 16 16  4]
+ [ 2  2  0  0]
+ [ 0  2  0  0]]
+action:
+3
+Clicking left
+action_number: 64
+current_state:
+[[ 8 64  2  8]
+ [ 4 32  4  0]
+ [ 4  0  2  0]
+ [ 2  0  0  0]]
+action:
+2
+Clicking down
+action_number: 65
+current_state:
+[[ 0  0  2  0]
+ [ 8  0  2  0]
+ [ 8 64  4  0]
+ [ 2 32  2  8]]
+action:
+1
+Clicking right
+action_number: 66
+current_state:
+[[ 0  0  0  2]
+ [ 0  2  8  2]
+ [ 0  8 64  4]
+ [ 2 32  2  8]]
+action:
+3
+Clicking left
+action_number: 67
+current_state:
+[[ 2  0  0  0]
+ [ 2  8  2  0]
+ [ 8 64  4  2]
+ [ 2 32  2  8]]
+action:
+2
+Clicking down
+action_number: 68
+current_state:
+[[ 0  0  0  2]
+ [ 4  8  2  0]
+ [ 8 64  4  2]
+ [ 2 32  2  8]]
+action:
+1
+Clicking right
+action_number: 69
+current_state:
+[[ 0  2  0  2]
+ [ 0  4  8  2]
+ [ 8 64  4  2]
+ [ 2 32  2  8]]
+action:
+0
+Clicking up
+action_number: 70
+current_state:
+[[ 8  2  8  4]
+ [ 2  4  4  2]
+ [ 0 64  2  8]
+ [ 2 32  0  0]]
+action:
+0
+Clicking up
+action_number: 71
+current_state:
+[[ 8  2  8  4]
+ [ 4  4  4  2]
+ [ 0 64  2  8]
+ [ 0 32  0  2]]
+action:
+3
+Clicking left
+action_number: 72
+current_state:
+[[ 8  2  8  4]
+ [ 8  4  2  0]
+ [64  2  8  2]
+ [32  2  0  0]]
+action:
+2
+Clicking down
+action_number: 73
+current_state:
+[[ 0  0  0  0]
+ [16  2  8  2]
+ [64  4  2  4]
+ [32  4  8  2]]
+action:
+0
+Clicking up
+action_number: 74
+current_state:
+[[16  2  8  2]
+ [64  8  2  4]
+ [32  0  8  2]
+ [ 0  0  0  2]]
+action:
+1
+Clicking right
+action_number: 75
+current_state:
+[[16  2  8  2]
+ [64  8  2  4]
+ [ 2 32  8  2]
+ [ 0  0  0  2]]
+action:
+0
+Clicking up
+action_number: 76
+current_state:
+[[16  2  8  2]
+ [64  8  2  4]
+ [ 2 32  8  4]
+ [ 0  0  2  0]]
+action:
+3
+Clicking left
+action_number: 77
+current_state:
+[[16  2  8  2]
+ [64  8  2  4]
+ [ 2 32  8  4]
+ [ 2  2  0  0]]
+action:
+2
+Clicking down
+action_number: 78
+current_state:
+[[ 0  2  0  0]
+ [16  8  8  2]
+ [64 32  2  2]
+ [ 4  2  8  8]]
+action:
+3
+Clicking left
+action_number: 79
+current_state:
+[[ 2  2  0  0]
+ [16 16  2  0]
+ [64 32  4  0]
+ [ 4  2 16  0]]
+action:
+2
+Clicking down
+action_number: 80
+current_state:
+[[ 2  2  0  0]
+ [16 16  2  0]
+ [64 32  4  0]
+ [ 4  2 16  0]]
+action:
+1
+Clicking right
+action_number: 81
+current_state:
+[[ 0  0  0  4]
+ [ 2  0 32  2]
+ [ 0 64 32  4]
+ [ 0  4  2 16]]
+action:
+0
+Clicking up
+action_number: 82
+current_state:
+[[ 2 64 64  4]
+ [ 0  4  2  2]
+ [ 2  0  0  4]
+ [ 0  0  0 16]]
+action:
+0
+Clicking up
+action_number: 83
+current_state:
+[[ 4 64 64  4]
+ [ 0  4  2  2]
+ [ 2  0  0  4]
+ [ 0  0  0 16]]
+action:
+0
+Clicking up
+action_number: 84
+current_state:
+[[ 4 64 64  4]
+ [ 2  4  2  2]
+ [ 0  0  2  4]
+ [ 0  0  0 16]]
+action:
+2
+Clicking down
+action_number: 85
+current_state:
+[[ 0  0  0  4]
+ [ 0  2  0  2]
+ [ 4 64 64  4]
+ [ 2  4  4 16]]
+action:
+2
+Clicking down
+action_number: 86
+current_state:
+[[ 0  0  0  4]
+ [ 0  2  0  2]
+ [ 4 64 64  4]
+ [ 2  4  4 16]]
+action:
+3
+Clicking left
+action_number: 87
+current_state:
+[[  4   0   0   0]
+ [  4   2   0   0]
+ [  4 128   4   0]
+ [  2   8  16   0]]
+action:
+2
+Clicking down
+action_number: 88
+current_state:
+[[  0   0   0   0]
+ [  4   2   0   0]
+ [  8 128   4   2]
+ [  2   8  16   0]]
+action:
+2
+Clicking down
+action_number: 89
+current_state:
+[[  2   0   0   0]
+ [  4   2   0   0]
+ [  8 128   4   0]
+ [  2   8  16   2]]
+action:
+0
+Clicking up
+action_number: 90
+current_state:
+[[  2   2   4   2]
+ [  4 128  16   0]
+ [  8   8   0   0]
+ [  2   0   0   2]]
+action:
+0
+Clicking up
+action_number: 91
+current_state:
+[[  2   2   4   4]
+ [  4 128  16   0]
+ [  8   8   0   0]
+ [  2   2   0   0]]
+action:
+0
+Clicking up
+action_number: 92
+current_state:
+[[  2   2   4   4]
+ [  4 128  16   0]
+ [  8   8   0   0]
+ [  2   2   0   0]]
+action:
+3
+Clicking left
+action_number: 93
+current_state:
+[[  4   8   0   2]
+ [  4 128  16   0]
+ [ 16   0   0   0]
+ [  4   0   0   0]]
+action:
+3
+Clicking left
+action_number: 94
+current_state:
+[[  4   8   2   2]
+ [  4 128  16   0]
+ [ 16   0   0   0]
+ [  4   0   0   0]]
+action:
+3
+Clicking left
+action_number: 95
+current_state:
+[[  4   8   4   0]
+ [  4 128  16   0]
+ [ 16   2   0   0]
+ [  4   0   0   0]]
+action:
+3
+Clicking left
+action_number: 96
+current_state:
+[[  4   8   4   0]
+ [  4 128  16   0]
+ [ 16   2   0   0]
+ [  4   0   0   0]]
+action:
+0
+Clicking up
+action_number: 97
+current_state:
+[[  8   8   4   0]
+ [ 16 128  16   0]
+ [  4   2   0   0]
+ [  4   0   0   0]]
+action:
+3
+Clicking left
+action_number: 98
+current_state:
+[[ 16   4   0   2]
+ [ 16 128  16   0]
+ [  4   2   0   0]
+ [  4   0   0   0]]
+action:
+2
+Clicking down
+action_number: 99
+current_state:
+[[  0   0   0   0]
+ [  2   4   0   0]
+ [ 32 128   0   0]
+ [  8   2  16   2]]
+action:
+2
+Clicking down
+action_number: 100
+current_state:
+[[  0   0   0   0]
+ [  2   4   0   0]
+ [ 32 128   0   0]
+ [  8   2  16   2]]
+action:
+3
+Clicking left
+action_number: 101
+current_state:
+[[  0   0   0   0]
+ [  2   4   0   0]
+ [ 32 128   0   0]
+ [  8   2  16   2]]
+action:
+0
+Clicking up
+action_number: 102
+current_state:
+[[  2   4  16   2]
+ [ 32 128   0   2]
+ [  8   2   0   0]
+ [  0   0   0   0]]
+action:
+2
+Clicking down
+action_number: 103
+current_state:
+[[  0   0   0   0]
+ [  2   4   2   0]
+ [ 32 128   0   0]
+ [  8   2  16   4]]
+action:
+0
+Clicking up
+action_number: 104
+current_state:
+[[  2   4   2   4]
+ [ 32 128  16   2]
+ [  8   2   0   0]
+ [  0   0   0   0]]
+action:
+1
+Clicking right
+action_number: 105
+current_state:
+[[  2   4   2   4]
+ [ 32 128  16   2]
+ [  0   0   8   2]
+ [  0   0   2   0]]
+action:
+0
+Clicking up
+action_number: 106
+current_state:
+[[  2   4   2   4]
+ [ 32 128  16   4]
+ [  0   2   8   0]
+ [  0   0   2   0]]
+action:
+0
+Clicking up
+action_number: 107
+current_state:
+[[  2   4   2   8]
+ [ 32 128  16   2]
+ [  0   2   8   0]
+ [  0   0   2   0]]
+action:
+0
+Clicking up
+action_number: 108
+current_state:
+[[  2   4   2   8]
+ [ 32 128  16   2]
+ [  0   2   8   0]
+ [  0   0   2   0]]
+action:
+3
+Clicking left
+action_number: 109
+current_state:
+[[  2   4   2   8]
+ [ 32 128  16   2]
+ [  2   8   0   0]
+ [  2   0   2   0]]
+action:
+2
+Clicking down
+action_number: 110
+current_state:
+[[  0   0   2   0]
+ [  2   4   2   0]
+ [ 32 128  16   8]
+ [  4   8   2   2]]
+action:
+2
+Clicking down
+action_number: 111
+current_state:
+[[  0   0   0   0]
+ [  2   4   4   2]
+ [ 32 128  16   8]
+ [  4   8   2   2]]
+action:
+0
+Clicking up
+action_number: 112
+current_state:
+[[  2   4   4   2]
+ [ 32 128  16   8]
+ [  4   8   2   2]
+ [  0   0   0   2]]
+action:
+0
+Clicking up
+action_number: 113
+current_state:
+[[  2   4   4   2]
+ [ 32 128  16   8]
+ [  4   8   2   4]
+ [  0   0   0   2]]
+action:
+0
+Clicking up
+action_number: 114
+current_state:
+[[  2   4   4   2]
+ [ 32 128  16   8]
+ [  4   8   2   4]
+ [  0   0   0   2]]
+action:
+3
+Clicking left
+action_number: 115
+current_state:
+[[  2   8   2   0]
+ [ 32 128  16   8]
+ [  4   8   2   4]
+ [  2   0   2   0]]
+action:
+3
+Clicking left
+action_number: 116
+current_state:
+[[  2   8   2   0]
+ [ 32 128  16   8]
+ [  4   8   2   4]
+ [  4   2   0   0]]
+action:
+2
+Clicking down
+action_number: 117
+current_state:
+[[  2   8   0   0]
+ [  2 128   2   0]
+ [ 32   8  16   8]
+ [  8   2   2   4]]
+action:
+1
+Clicking right
+action_number: 118
+current_state:
+[[  0   0   2   8]
+ [  2   2 128   2]
+ [ 32   8  16   8]
+ [  0   8   4   4]]
+action:
+1
+Clicking right
+action_number: 119
+current_state:
+[[  0   0   2   8]
+ [  0   4 128   2]
+ [ 32   8  16   8]
+ [  0   2   8   8]]
+action:
+2
+Clicking down
+action_number: 120
+current_state:
+[[  0   2   2   0]
+ [  0   4 128   8]
+ [  0   8  16   2]
+ [ 32   2   8  16]]
+action:
+2
+Clicking down
+action_number: 121
+current_state:
+[[  0   2   2   0]
+ [  0   4 128   8]
+ [  0   8  16   2]
+ [ 32   2   8  16]]
+action:
+3
+Clicking left
+action_number: 122
+current_state:
+[[  4   0   0   0]
+ [  4 128   8   2]
+ [  8  16   2   0]
+ [ 32   2   8  16]]
+action:
+2
+Clicking down
+action_number: 123
+current_state:
+[[  0   2   0   0]
+ [  8 128   8   0]
+ [  8  16   2   2]
+ [ 32   2   8  16]]
+action:
+0
+Clicking up
+action_number: 124
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  0  16   8   2]
+ [  0   2   0   0]]
+action:
+1
+Clicking right
+action_number: 125
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  2  16   8   2]
+ [  0   0   0   2]]
+action:
+0
+Clicking up
+action_number: 126
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  2  16   8   4]
+ [  0   2   0   0]]
+action:
+1
+Clicking right
+action_number: 127
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  2  16   8   4]
+ [  0   2   0   2]]
+action:
+3
+Clicking left
+action_number: 128
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  2  16   8   4]
+ [  4   0   0   2]]
+action:
+0
+Clicking up
+action_number: 129
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  2  16   8   4]
+ [  4   0   0   2]]
+action:
+1
+Clicking right
+action_number: 130
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  2  16   8   4]
+ [  2   0   4   2]]
+action:
+0
+Clicking up
+action_number: 131
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  4  16   8   4]
+ [  2   0   4   2]]
+action:
+0
+Clicking up
+action_number: 132
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  4  16   8   4]
+ [  2   0   4   2]]
+action:
+1
+Clicking right
+action_number: 133
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  4  16   8   4]
+ [  2   2   4   2]]
+action:
+3
+Clicking left
+action_number: 134
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  4  16   8   4]
+ [  4   4   2   2]]
+action:
+1
+Clicking right
+action_number: 135
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  4  16   8   4]
+ [  2   0   8   4]]
+action:
+1
+Clicking right
+action_number: 136
+current_state:
+[[ 16   2   8   2]
+ [ 32 128   2  16]
+ [  4  16   8   4]
+ [  2   2   8   4]]
+action:
+2
+Clicking down
+action_number: 137
+current_state:
+[[ 16   2   2   0]
+ [ 32 128   8   2]
+ [  4  16   2  16]
+ [  2   2  16   8]]
+action:
+2
+Clicking down
+action_number: 138
+current_state:
+[[ 16   2   2   0]
+ [ 32 128   8   2]
+ [  4  16   2  16]
+ [  2   2  16   8]]
+action:
+1
+Clicking right
+action_number: 139
+current_state:
+[[  0   2  16   4]
+ [ 32 128   8   2]
+ [  4  16   2  16]
+ [  0   4  16   8]]
+action:
+2
+Clicking down
+action_number: 140
+current_state:
+[[  0   2  16   4]
+ [  2 128   8   2]
+ [ 32  16   2  16]
+ [  4   4  16   8]]
+action:
+0
+Clicking up
+action_number: 141
+current_state:
+[[  2   2  16   4]
+ [ 32 128   8   2]
+ [  4  16   2  16]
+ [  4   4  16   8]]
+action:
+2
+Clicking down
+action_number: 142
+current_state:
+[[  2   2  16   4]
+ [  2 128   8   2]
+ [ 32  16   2  16]
+ [  8   4  16   8]]
+action:
+0
+Clicking up
+action_number: 143
+current_state:
+[[  4   2  16   4]
+ [ 32 128   8   2]
+ [  8  16   2  16]
+ [  2   4  16   8]]
+action:
+3
+Clicking left
+action_number: 144
+current_state:
+[[  4   2  16   4]
+ [ 32 128   8   2]
+ [  8  16   2  16]
+ [  2   4  16   8]]
+action:
+2
+Clicking down
+action_number: 145
+current_state:
+[[  4   2  16   4]
+ [ 32 128   8   2]
+ [  8  16   2  16]
+ [  2   4  16   8]]
+action:
+1
+Clicking right
+action_number: 146
+current_state:
+[[  4   2  16   4]
+ [ 32 128   8   2]
+ [  8  16   2  16]
+ [  2   4  16   8]]
+action:
+0
+Clicking up
+action_number: 147
+current_state:
+[[  4   2  16   4]
+ [ 32 128   8   2]
+ [  8  16   2  16]
+ [  2   4  16   8]]
+action:
+-1
+Game Over
